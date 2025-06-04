@@ -20,6 +20,7 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
         <script>var dataLayer = []</script>
     	<?= /* Tagmanager - head-code */ Configure::read('config.tracking.tagmanager-head'); ?>
+        <script src="https://cdn.userway.org/widget.js" data-account="CIFABIaBAx"></script>
     </head>
     <?php $body_class = isset($this->request->params['route']) && $this->request->params['route'] == Configure::read('config.default.home.0.details.node.route') ? 'home' : 'not-home'; ?>
     <body class="<?= $body_class . ' ' . $this->request->params['language']; ?><?php echo $dialog ? ' dialog-mode' : ''; ?>">
