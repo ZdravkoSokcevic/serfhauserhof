@@ -1,0 +1,5 @@
+<krpano version="1.0.8" showerrors="false">
+  <!--INCLUDE-->
+  <view hlookat="-210" vlookat="0" vlookatmin="90" vlookatmax="-90" hlookatmin="-180" hlookatmax="180"/>
+  
+<hotspot name="hotspot" style="normalHotspot" ath="133" atv="1" file="serfauserhof_0926"/><hotspot name="hotspot" style="normalHotspot" ath="142" atv="1" file="serfauserhof_0580"/></krpano>

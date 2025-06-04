@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.5.1">
+
+	<message
+		home				= "Načítavanie spustenia panorámy..."
+		rotation_on			= "Rotácia spustená..."
+		rotation_off		= "Rotácia zastavená..."
+		slideshow_on		= "Prezenácia spustená..."
+		slideshow_off		= "Prezentácia zastavená..."
+		sound_on			= "Hudba zapnutá..."
+		sound_off			= "Hudba pozastavená..."
+		map_on				= "Google Mapy zobrazené..."
+		map_off				= "Google Mapy nezobrazené..."
+		groundplan_on		= "*Plán poschodia zobrazený..."
+		groundplan_off		= "*Plán poschodia nezobrazený..."
+		groundplaninfo_on	= "Informácie zobrazené..."
+		groundplaninfo_off	= "Informácie nezobrazené..."
+		weather_on			= "Počasie zobrazené..."
+		weather_off			= "Počasie nezobrazené..."
+		sitemap_on			= "Mapa stránky zobrazená..."
+		sitemap_off			= "Mapa stránky nezobrazená..."
+		help_on				= "Pomoc zobrazená..."
+		help_off			= "Pomoc nezobrazená..."
+		guidedtour_on		= "Sprievodná prehliadka spustená..."
+		guidedtour_off		= "Sprievodná prehliadka zastavená..."
+        webvr_on   			= "Spustí znenie Virtual Reality..."
+        webvr_off   		= "Ukončí znenie Virtual Reality..."
+		gyroscope_on		= "Gyroskop kontrola požívateľských..."
+		gyroscope_off		= "Gyroskop kontrola vypnutá..."
+        info_on		        = "Infos shown..."
+        info_off	    	= "Infos hidden..."
+		/>
+	<message_hover
+		home				= "Načítať začiatok panorámy"
+		home_online			= "Ukázať webstránku"
+		rotation_on			= "Spustiť rotáciu panorámy"
+		rotation_off		= "Zastaviť rotáciu panorámy"
+		slideshow_on		= "Spustiť prezentáciu"
+		slideshow_off		= "Zastaviť prezentáciu"
+		sound_on			= "Spustiť hudbu"
+		sound_off			= "Pozastaviť hudbu"
+		map_on				= "Zobraziť Google Mapy"
+		map_off				= "Skryť Google Mapy"
+		groundplan_on		= "Zobraziť plán poschodia "
+		groundplan_off		= "Skryť plán poschodia"
+		groundplaninfo_on	= "Zobraziť informácie"
+		groundplaninfo_off	= "Skryť informácie"
+		weather_on			= "Zobraziť počasie"
+		weather_off			= "Skryť počasie"
+		sitemap_on			= "SZobraziť mapu stránky"
+		sitemap_off			= "Skryť mapu stránky"
+		help_on				= "Zobraziť pomoc"
+		help_off			= "Skryť pomoc"
+		toggle				= "Skryť menu"
+		fullscreen_on		= "Spustiť režim celej obrazovky"
+		fullscreen_off		= "Ukončiť režim celej obrazovky"
+		facebook			= "Otvoriť Facebook profil"
+		facebook-share		= "Zdieľať na Facebooku"
+        google			    = "Otvoriť Google+ profil"
+        google-share		= "Zdieľať na Google+"
+		whatsapp    		= "Zdieľať na Whatsappu"
+		twitter				= "Otvoriť Twitter profil"
+		twitter-share		= "Tweet na Twitteri"
+		book				= "Rezervovať"
+		guidedtour_on		= "Spustiť sprievodnú prehliadku"
+		guidedtour_off		= "Ukončiť sprievodnú prehliadku"
+        webvr_on   			= "Začať znenie Virtual Reality"
+        webvr_off   		= "Znenie zastavenie Virtual Reality"
+		gyroscope_on		= "Umožniť kontrolu gyroskop"
+		gyroscope_off		= "Vypnúť kontrolu gyroskop"
+        info_on		        = "Show Infos"
+        info_off	    	= "Hide Infos"
+		/>
+	<error
+		fatal				= "360° virtuálna prehliadka nedokázala byť načítaná zo servera. Prosím uistite sa, že ste pripojený na internet a skúste znova. Ak sa táto udalosť opakuje, prosím kontaktujte poskytovateľa tejto virtuálnej prehliadky."
+		fullscreen			= "Ukončite prosím režim celej obrazovky"
+		stopVideo			= "Prosím zastavte video..."
+		weatherUnavailable	= "Udáje o počasí nedostupné..."
+	/>
+	<days
+		now					= "Teraz"
+		today				= "Dnes"
+		monday				= "Pondelok"
+		tuesday				= "Utorok"
+		wednesday			= "Streda"
+		thursday			= "Štvrtok"
+		friday				= "Piatok"
+		saturday			= "Sobota"
+		sunday				= "Nedeľa"
+	/>
+	<email
+		subject				= "Žiadosť o informácie prostredníctvom virtuálnej 360° panoramatickej prehliadky"
+		body				= "Dobrý deň"
+	/>
+	<interface
+		back				= "späť"
+		back-to             = "Back to"
+        menu-button         = "Menu"
+        creator             = "Fotograf"
+        disclaimer 			= "Obrázky a popisy sú len schematické!"
+        guided-tour-selector = "Prehliadku"
+    />
+	<help
+		toggle				= "Zobraziť/Skryť menu"
+		fullscreen			= "Normálny- alebo režim celej obrazovky"
+		home				= "Reštartovať virtuálnu 360° prehliadku"
+		slideshow			= "Spustiť/Zastaviť panoramatickú prezentáciu"
+		sound				= "Zapnúť/Vypnúť zvuk"
+		rotation			= "Spustiť/Zastaviť panoramatickú rotáciu"
+		groundplan			= "Zobratiť/Skryť plán poschodia"
+		map					= "Zobraziť/Skryť Google Mapy"
+		weather				= "Zobraziť/Skryť predpoveď počasia"
+		sitemap				= "Zobraziť/Skryť mapu stránky"
+        guidedtour          = "Začať prehliadku"
+		email				= "poslať e-mail"
+		info				= "Zobraziť/Skryť kontakty"
+        facebook			= "Otvoriť Facebook profil"
+        facebook-share		= "Zdieľať na Facebooku"
+        google	    		= "Otvoriť Google+ profil"
+        google-share		= "Zdieľať na Google+"
+        whatsapp    		= "Zdieľať na Whatsappu"
+        twitter				= "Otvoriť Twitter profil"
+        twitter-share		= "Tweet na Twitteri"
+		book				= "Rezervujte si hotel alebo izbu"
+        webvr   			= "Spustenie alebo zastavenie znenie Virtual Reality"
+
+		gyroscope		    = "Zapnutie/vypnutie kontroly gyroskop"
+		other				= "V hlavnom menu si možete vybrať rôzne oblasti alebo náhľadový obrázok. Po kliknutí na náhľadový
+obrázok sa Vám načíta nová panoráma."
+	/>
+	<privacy
+		name				= "Ochrana osobných údajov"
+		text				= "Táto stránka používa technológie etracker GmbH (www.etracker.com) na zbieranie a ukladanie dát pre analytické účely.
+Nazbierané údaje nebudú použité na identifikovanie, alebo vytvorenie, užívateľkých profilov návštevníkov tejto webstránky."
+		disable				= "Deaktivovať Sledovanie"
+	/>
+	<explanation_click
+		caption				= "Ovládanie panorámy"
+		move				= "Rotácia panorámy: Podržte ľavé tlačítko na myške a pohybujte s ňou."
+		zoom				= "Zoom panorámy: Rolujte koliesko na myške pre priblíženie alebo oddialenie obrazu."
+	/>
+	<explanation_touch
+		caption				= "Ovládanie panorámy"
+		move				= "Rotácia panorámy: Dotknite sa obrazovky a pohybujte sa doľava alebo doprava."
+		zoom				= "Zoom panorámy: Použite palec a ukazovák na priblíženie alebo oddialenie obrazu."
+	/>
+    <webvrsettings
+        title               =   "Prosím, vyberte si VR - okuliare."
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+    <sharing
+        twitter         = "Pozrite sa na toto virtuálnu prehliadku"
+        whatsapp         = "Pozrite sa na toto virtuálnu prehliadku"
+    />
+
+</language>

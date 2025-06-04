@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.5.1">
+
+	<message
+		home				= "Загрузка начальной панорамы..."
+		rotation_on			= "Вращение включено..."
+		rotation_off		= "Вращение остановлено..."
+		slideshow_on		= "Показ слайдов включен..."
+		slideshow_off		= "Показ слайдов остановлен..."
+		sound_on			= "Воспроизведение музыки..."
+		sound_off			= "Воспроизведение музыки приостановлено..."
+		map_on				= "Отображение карт Google..."
+		map_off				= "Скрытие карт Google..."
+		groundplan_on		= "Отображение горизонтальной проекции"
+		groundplan_off		= "Скрытие горизонтальной проекции"
+		groundplaninfo_on	= "Показать информацию..."
+		groundplaninfo_off	= "Скрыть информацию..."
+		weather_on			= "Отображение погоды"
+		weather_off			= "Скрытие погоды..."
+		sitemap_on			= "Отображение карты сайта..."
+		sitemap_off			= "Скрытие карты сайта..."
+		help_on				= "Отображение справки..."
+		help_off			= "Скрытие справки..."
+		guidedtour_on		= "Экскурсия начинается..."
+		guidedtour_off		= "Экскурсия закончилась..."
+        webvr_on   			= "Начинается версия Virtual Reality..."
+        webvr_off   		= "Останавливает версия Virtual Reality..."
+		gyroscope_on		= "Включено управление гироскоп..."
+		gyroscope_off		= "Гироскопом управления отключен..."
+        info_on		        = "Infos shown..."
+        info_off	    	= "Infos hidden..."
+		/>
+	<message_hover
+		home				= "Загрузка начальной панорамы..."
+		home_online			= "Зайти на сайт"
+		rotation_on			= "Начать вращение"
+		rotation_off		= "Остановить вращение"
+		slideshow_on		= "Начать слайд-шоу"
+		slideshow_off		= "Остановить слайд-шоу"
+		sound_on			= "Включить музыку"
+		sound_off			= "Выключить музыку"
+		map_on				= "Показать карту Google"
+		map_off				= "Скрыть карту Google"
+		groundplan_on		= "Показать план этажа"
+		groundplan_off		= "Скрыть план этажа"
+		groundplaninfo_on	= "Показать информацию"
+		groundplaninfo_off	= "Скрыть информацию"
+		weather_on			= "Показать погоду"
+		weather_off			= "Скрыть погоду"
+		sitemap_on			= "Показать карту сайта"
+		sitemap_off			= "Скрыть карту сайта"
+		help_on				= "Показать помощь"
+		help_off			= "Скрыть помощь"
+		toggle				= "Скрыть меню"
+		fullscreen_on		= "Начать просмотр в полноэкранном режиме"
+		fullscreen_off		= "Выйти из полноэкранного режима"
+		facebook			= "Перейти к профилю в Facebook-e"
+		facebook-share		= "Поделиться на Facebook"
+        google		    	= "Перейти к профилю в Google+"
+        google-share		= "Поделиться на Google+"
+		whatsapp    		= "Поделиться на Whatsapp"
+		twitter				= "Показать профиль в Twitter-e"
+		twitter-share		= "Tweet на Twitter"
+		book				= "Забронировать номер"
+		guidedtour_on		= "Экскурсия начинается"
+		guidedtour_off		= "Экскурсия заканчивается"
+        webvr_on   			= "Начните версия Virtual Reality"
+        webvr_off   		= "версия останова Virtual Reality"
+		gyroscope_on		= "Включение управления гироскопом"
+		gyroscope_off		= "Отключение управления гироскопом"
+        info_on		        = "Show Infos"
+        info_off	    	= "Hide Infos"
+		/>
+	<error
+		fatal				= "Загрузка виртуального тура (360°) с сервера невозможна. Проверьте подключение к Интернету и повторите попытку. В случае повторного возникновения проблемы свяжитесь с провайдером этого тура."
+		fullscreen			= "Выйдите из полноэкранного режима"
+		stopVideo			= "Остановите воспроизведение видео..."
+		weatherUnavailable	= "Данные о погоде недоступны..."
+	/>
+	<days
+		now					= "Сейчас"
+		today				= "Сегодня"
+		monday				= "Понедельник"
+		tuesday				= "Вторник"
+		wednesday			= "Среда"
+		thursday			= "Четверг"
+		friday				= "Пятница"
+		saturday			= "Суббота"
+		sunday				= "Воскресенье"
+	/>
+	<email
+		subject				= "Запрос информации через виртуальный панорамный тур (360°)"
+		body				= "Здравствуйте"
+	/>
+	<interface
+		back				= "назад"
+		back-to             = "Back to"
+        menu-button         = "Меню"
+        creator             = "фотограф"
+        disclaimer 			= "Иллюстрации и описания носят схематический характер!"
+        guided-tour-selector = "Зкскурсии"
+    />
+	<help
+		toggle				= "Показать/Скрыть меню"
+		fullscreen			= "Обычный или полноэкранный режим"
+		home				= "Начать виртуальный тур (360°) снова"
+		slideshow			= "Начать/Остановить показ панорамных слайдов"
+		sound				= "Включить/Выключить звук"
+		rotation			= "Начать/Остановить вращение панорамы"
+		groundplan			= "Показать/Скрыть горизонтальную проекцию текущей панорамы"
+		map					= "Показать/Скрыть карты Google..."
+		weather				= "Показать/Скрыть прогноз погоды"
+		sitemap				= "Показать/Скрыть карту сайта"
+        guidedtour          = "Начало экскурсии"
+		email				= "отправить по электронной почте"
+		info				= "Показать/Скрыть контакты"
+        facebook			= "Перейти к профилю в Facebook-e"
+        facebook-share		= "Поделиться на Facebook"
+        google			    = "Перейти к профилю в Google+"
+        google-share		= "Поделиться на Google+"
+        whatsapp    		= "Поделиться на Whatsapp"
+        twitter				= "Показать профиль в Twitter-e"
+        twitter-share		= "Tweet на Twitter"
+		book				= "Book hotel or Room"
+        webvr   			= "Запуск или остановка версия Virtual Reality"
+
+		gyroscope		    = "Включить/отключить управления гироскопом"
+		other				= "Вы можете переходить в разные столбцы главного меню или воспользоваться функцией предварительного просмотра изображения. После выбора функции предварительного просмотра изображения загрузится новая панорама."
+	/>
+	<privacy
+		name				= "Политика конфиденциальности"
+		text				= "Для сбора и хранения данных с целью их последующего анализа на данном сайте используются технологии фирмы etracker GmbH (www.etracker.com). Полученные данные не будут использоваться для идентификации или создания профиля пользователя посетителей этого веб-сайта."
+		disable				= "Отключить мониторинг"
+	/>
+	<explanation_click
+		caption				= "Управление панорамой"
+		move				= "Чтобы повернуть панорамное изображение:  Придерживайте левую кнопку мыши, и перемещайте мышь."
+		zoom				= "Увеличение панорамного изображения:  Поверните/Крутите колесо мыши для увеличения или уменьшения масштаба."
+	/>
+	<explanation_touch
+		caption				= "Управление панорамой"
+		move				= "Чтобы повернуть панорамное изображение:  Нажмите на изображение, и поверните его влево или вправо."
+		zoom				= "Увеличение панорамного изображения: Чтобы увеличить изображение, нажмите большим и указательным пальцами, а затем разведите пальцы в разные стороны одновременно."
+	/>
+    <webvrsettings
+        title               =   "Пожалуйста, выберите ваш VR-очки."
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+    <sharing
+        twitter         = "Смотрите этот виртуальный тур"
+        whatsapp         = "Смотрите этот виртуальный тур"
+    />
+
+</language>

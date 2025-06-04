@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.1.8">
+
+        <message
+                home				= "Startpanorama laden..."
+                rotation_on			= "Rotatie gestart..."
+                rotation_off		= "Rotatie gestopt..."
+                slideshow_on		= "Slideshow gestart..."
+                slideshow_off		= "Slideshow gestopt..."
+                sound_on			= "Muziek afspelen..."
+                sound_off			= "Muziek stoppen..."
+                map_on				= "Toon Google-kaart..."
+                map_off				= "Google-kaart verbergen..."
+                groundplan_on		= "Toon plattegrond..."
+                groundplan_off		= "Plattegrond verbergen..."
+                groundplaninfo_on	= "Informatie tonen..."
+                groundplaninfo_off	= "Het verbergen van informatie..."
+                weather_on			= "Toon weer..."
+                weather_off			= "Weer verbergen..."
+                sitemap_on			= "Toon sitemap..."
+                sitemap_off			= "Sitemap verbergen..."
+                help_on				= "Toon Help..."
+                help_off			= "Help verbergen..."
+                guidedtour_on		= "Start Guided Tour..."
+                guidedtour_off		= "Rondleiding gestopt..."
+                webvr_on   			= "Begint Virtual Reality Version..."
+                webvr_off   		= "Stopt Virtual Reality Version..."
+                gyroscope_on="Gyroscoop control ingeschakeld..."
+                gyroscope_off="Gyroscoop control uitgeschakeld..."
+                info_on		        = "Infos shown..."
+                info_off	    	= "Infos hidden..."
+        />
+        <message_hover
+                home				= "belasting start panorama"
+                home_online			= "Toon website"
+                rotation_on			= "Start panorama rotatie"
+                rotation_off		= "Stop panorama rotatie"
+                slideshow_on		= "Start slideshow"
+                slideshow_off		= "Stop diashow"
+                sound_on			= "muziek afspelen"
+                sound_off			= "Pauze muziek"
+                map_on				= "Toon Google-kaart"
+                map_off				= "Google-kaart verbergen"
+                groundplan_on		= "Toon plattegrond"
+                groundplan_off		= "Plattegrond verbergen"
+                groundplaninfo_on	= "Informatie tonen"
+                groundplaninfo_off	= "Het verbergen van informatie"
+                weather_on			= "Toon weer"
+                weather_off			= "Weer verbergen"
+                sitemap_on			= "Toon sitemap"
+                sitemap_off			= "Sitemap verbergen"
+                help_on				= "Toon Help"
+                help_off			= "Help verbergen"
+                toggle				= "Verberg menu balk"
+                fullscreen_on		= "Start fullscreen-modus"
+                fullscreen_off		= "End fullscreen-modus"
+                facebook			= "Open Facebook-profiel"
+                facebook-share		= "Delen op Facebook"
+                google			= "Open Google+-profiel"
+                google-share		= "Delen op Google+"
+                whatsapp    		= "Delen op Whatsapp"
+                twitter				= "Open Twitter-profiel"
+                twitter-share		= "Tweet op Twitter"
+                book				= "Boek"
+                guidedtour_on		= "Start Guided Tour"
+                guidedtour_off		= "Rondleiding gestopt"
+                webvr_on   			= "Start Virtual Reality Version"
+                webvr_off   		= "Stop Virtual Reality Version"
+                gyroscope_on="Gyroscoop besturingselement inschakelen"
+                gyroscope_off="Gyroscoop besturingselement uitschakelen"
+                info_on		        = "Show Infos"
+                info_off	    	= "Hide Infos"
+        />
+        <error
+                fatal				= "De virtuele 360° tour kon niet worden geladen. Controleer of u verbinding heeft met internet en probeer het opnieuw. Mocht dit vaker voorkomen, neem dan contact op met de eigenaar van deze tour."
+                fullscreen			= "Full-screen modus verlaten"
+                stopVideo			= "Hou alsjeblieft op video..."
+                weatherUnavailable	= "Weer ontbreekt..."
+        />
+        <days
+                now					= "Nu"
+                today				= "Vandaag"
+                monday				= "Maandag"
+                tuesday				= "Dinsdag"
+                wednesday			= "Woensdag"
+                thursday			= "Donderdag"
+                friday				= "Vrijdag"
+                saturday			= "Zaterdag"
+                sunday				= "Zondag"
+        />
+        <email
+                subject				= "Contact opnemen omtrent de virtuele 360° tour"
+                body				= "Hallo"
+        />
+        <interface
+                back				= "terug"
+                back-to             = "Back to"
+                menu-button         = "Menu"
+                creator             = "Fotograaf"
+                disclaimer 			= "De afbeeldingen en aanduidingen zijn slechts schematisch!"
+            guided-tour-selector = "Rondleiding"
+    />
+        <help
+                toggle				= "Menu tonen/verbergen"
+                fullscreen			= "Volledig of normaal scherm"
+                home				= "Tour opnieuw starten"
+                slideshow			= "Panorama-slideshow starten/stoppen"
+                sound				= "Geluid aan-/uitzetten"
+                rotation			= "Panorama-rotatie starten/stoppen"
+                groundplan			= "Plattegrond bij actueel panorama tonen/verbergen"
+                map					= "Google Maps tonen/verbergen"
+                weather				= "Weersverwachting tonen/verbergen"
+                sitemap				= "Sitemap tonen/verbergen"
+                guidedtour          = "Start rondleiding"
+                email				= "E-mail versturen"
+                info				= "Contactgegevens tonen/verbergen"
+                facebook			= "Open Facebook-profiel"
+                facebook-share		= "Delen op Facebook"
+                google			= "Open Google+-profiel"
+                google-share		= "Delen op Google+"
+                whatsapp    		= "Delen op Whatsapp"
+                twitter				= "Open Twitter-profiel"
+                twitter-share		= "Tweet op Twitter"
+                book				= "Book hotel or Room"
+                webvr   			= "Start/Stop Virtual Reality Version"
+
+                gyroscope="Controle van de gyroscoop in-/ uitschakelen"
+                other="In het hoofdmenu kan tussen de rubrieken worden genavigeerd of een preview worden aangeklikt. Door het aanklikken van de preview wordt een nieuw panorama geladen."
+        />
+        <privacy
+                name				= "Privacy beleid"
+                text				= "De site maakt gebruik van  etracker Ltd. (www.etracker.com) voor het verzamelen van data voor analysedoeleinden. De verzamelde data worden niet gebruikt voor het identificeren of aanmaken van een gebruikersprofiel van de bezoekers."
+                disable				= "Tracking deactiveren"
+        />
+        <explanation_click
+                caption				= "Controle van het panorama"
+                move				= "Panorama rotatie: Houd de linker muisknop ingedrukt en beweeg de muis."
+                zoom				= "Panorama zoom: Scroll het muiswiel om in of uit te zoomen."
+        />
+        <explanation_touch
+                caption				= "Controle van het panorama"
+                move				= "Panorama rotatie: Tik op het scherm en draai naar links of rechts."
+                zoom				= "Panorama zoom :: Gebruik duim en wijsvinger in en uit te zoomen."
+        />
+    <webvrsettings
+        title               =   "Kies uw vr-bril."
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+    <sharing
+        twitter         = "Bekijk deze virtuele tour"
+        whatsapp         = "Bekijk deze virtuele tour"
+    />
+
+</language>

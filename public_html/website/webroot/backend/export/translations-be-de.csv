@@ -1,0 +1,828 @@
+﻿FALLBACK;TRANSLATION
+"Export translations";
+"File not completly uploaded!";
+"Image could not be rotated. Please try again!";
+Import;
+"Import completed!";
+"Import failedl!";
+"Import translations";
+"Invalid CSV file!";
+"Maximum file size exceeded!";
+"No file selected!";
+"No file uploaded!";
+"No temp folder!";
+"No translations found!";
+"Nothing to import!";
+"Saving uploaded file failed!";
+"Select file";
+"Some translation fallbacks could not be found in the database";
+"The image has been successfully rotated";
+"Upload stopped from an PHP extension!";
+"-- All --";"-- Alle --"
+"-- Select group --";"-- Gruppe auswählen --"
+"-- Choose a map type --";"-- Kartentyp auswählen --"
+"-- Select category --";"-- Kategorie auswählen --"
+"-- Choose a number of persons --";"-- Personenanzahl auswählen --"
+"-- Choose a map --";"-- Plan auswählen --"
+"-- Select theme --";"-- Theme auswählen --"
+"-- Choose a type --";"-- Typ auswählen --"
+"-- Choose a webcam --";"-- Webcam auswählen --"
+"-- Choose a target --";"-- Ziel auswählen --"
+".mp4 file";".mp4 Datei"
+".ogv/.ogg file";".ogv/.ogg Datei"
+".webm file";".webm Datei"
+"%s %s (%s) is currently also active on this page!";"%s %s (%s) befindet sich gerade auch auf dieser Seite!"
+"%s person";"%s Person"
+"%s persons";"%s Personen"
+"%s are needed in order to set prices!";"%s sind erforderlich, um Preise festzulegen!"
+"360° Tour";"360° Tour"
+"404 errors";"404 Fehler"
+From;Ab
+Cancel;Abbrechen
+Logout;Abmelden
+"Sign off";Abmeldung
+Departure;Abreise
+Sender;Absender
+Deselect;Abwählen
+Note;Achtung
+Address;Adresse
+"Terms and conditions";AGB's
+Active;Aktiv
+active;aktiv
+"Active connection";"Aktive Verbindung"
+"Actual file";"Aktuelle Datei"
+News;Aktuelles
+All;Alle
+"Expand all";"Alle erweitern"
+"Collapse all";"Alles schließen"
+"Age of children";"Alter der Kinder"
+Fallback;Alternative
+"Used in unknow position";"An unbekannter Stelle verwendet"
+Top;Anfang
+Request;Anfrage
+Requests/Bookings;Anfragen/Buchungen
+Offer;Angebot
+"Top offer slider";Angebotsgalerie
+"Edit top offer slider";"Angebotsgalerie bearbeiten"
+"Top offer sliders";Angebotsgalerien
+Anchor;Anker
+Login;Anmelden
+Signup;Anmelden
+"Sign up";Anmeldung
+Salutation;Anrede
+"Salutation recipient";"Anrede (Empfänger)"
+Salutations;Anreden
+Arrival;Anreise
+"Show number of persons in prices table";"Anzahl der Personen in Preistabelle anzeigen"
+deposit;Anzahlung
+Display;Anzeigen
+Show;Anzeigen
+"Display to";"Anzeigen bis"
+"Display from";"Anzeigen von"
+"Display period";Anzeigezeitraum
+"Api key";"API Schlüssel"
+"API Key";"API Schlüssel"
+Off;Aus
+Education;Ausbildung
+"Auto. crop selected files";"Ausgewählte Dateien auto. zuschneiden"
+"Delete selected files";"Ausgewählte Dateien löschen"
+"Delete selected elements";"Ausgewählte Elemente löschen"
+Exchange;Austauschen
+"Could not initialize selector";"Auswahl konnte nicht initialisiert werden"
+"Missing interest";"Auswahl nicht mehr vorhanden"
+"Missing package";"Auswahl nicht mehr vorhanden"
+"Missing room";"Auswahl nicht mehr vorhanden"
+"Reverse selection";"Auswahl umkehren"
+"Automatic crop";"Automatisch zuschneiden"
+"Auto reply";"Automatische Antwort"
+Edit;Bearbeiten
+Update/create;Bearbeiten/erstellen
+Treatment;Behandlung
+"Edit treatment";"Behandlung bearbeiten"
+Treatments;Behandlungen
+"Treatment category";Behandlungskategorie
+"An error occured while saving image for this purpose! Please try again.";"Beim Speichern des Bildes für diesen Verwendungszweck ist ein Fehler aufgetreten! Bitte versuchen Sie es erneut."
+"There was an error resizing this image. Try again later.";"Beim Zuschneiden des Bildes ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+Examples;Beispiele
+Users;Benutzer
+"Edit user";"Benutzer bearbeiten"
+"Update existing user";"Benutzer bearbeiten"
+Custom;Benutzerdefiniert
+"Custom offers";"Benutzerdefinierte Angebote"
+"User information";Benutzerinformationen
+Username;Benutzername
+"Users overview";Benutzerübersicht
+"User management";Benutzerverwaltung
+Description;Beschreibung
+"Description for line %s";"Beschreibung für Zeile %s"
+"Teaser text";Beschreibungstext
+Subject;Betreff
+Provider;Betreiber
+Image;Bild
+"Image (square)";"Bild (quadratisch)"
+"Image (rectangular)";"Bild (rechteckig)"
+"Select image";"Bild auswählen"
+"Auto. crop image";"Bild auto. zuschneiden"
+"Rotate image";"Bild drehen"
+"Insert image";"Bild einfügen"
+"Replace image";"Bild ersetzen"
+"Add images";"Bild hinzufügen"
+"Delete image";"Bild löschen"
+"Crop image";"Bild zuschneiden"
+Images;Bilder
+"Select images";"Bilder auswählen"
+"Replace images";"Bilder ersetzen"
+"Images have to be cropped again after rotating!";"Bilder müssen neu zugeschnitten werden, nachdem sie gedreht wurden!"
+"Override images";"Bilder überschreiben"
+"Preload image";"Bilder vorladen"
+"Image gallery";Bildergalerie
+"Edit image gallery";"Bildergalerie bearbeiten"
+"Image galleries";Bildergalerien
+"Image search";Bildersuche
+To;Bis
+"Please select a valid group";"Bitte ein gültige Gruppe auswählen"
+"Please provide a start and end time!";"Bitte ein Start- und Enddatum angeben!"
+"Please add season times";"Bitte Saisonszeiten hinzufügen"
+"Please select the purpose for which you want to crop this image!";"Bitte wählen Sie den Verwendungszweck, für den Sie dieses Bild zuschneiden wollen!"
+"Please wait";"Bitte warten"
+"Wait till the preview is loaded!";"Bitte warten, bis die Vorschau geladen ist!"
+"Please select a group";"Bitten eine Gruppe auswählen"
+Latitude;Breitengrad
+"Booking request";Buchungsanfrage
+State;Bundesland
+"Cookie information";"Cookie Information"
+CSS-Class;CSS-Klasse
+"The selected image has exactly the correct dimensions and will be saved for this purpose!";"Das Bild hat genau die richtige Größe und wird für diesen Verwendungszweck gespeichert!"
+"The image could not be replaced!";"Das Bild konnte nicht ersetzt werden!"
+"The image could not be deleted because it's in use!";"Das Bild konnte nicht gelöscht werden, weil es in Verwendung ist!"
+"The image has been successfully removed!";"Das Bild wurde erfolgreich entfernt!"
+"The image has been successfully cropped";"Das Bild wurde erfolgreich zugeschnitten"
+"The element could not be deleted because it is in use!";"Das Element konnte nicht gelöscht werden, weil es in Verwendung ist!"
+"The form has been successfully removed!";"Das Formular wurde erfolgreich entfernt!"
+"The form has been successfully copied!";"Das Formular wurde erfolgreich kopiert!"
+"The last-minute offer has been successfully removed!";"Das Last-Minute Angebot wurde erfolgreich entfernt!"
+"The last-minute offer has been successfully copied!";"Das Last-Minute Angebot wurde erfolgreich kopiert!"
+"The special element has been successfully removed!";"Das Spezialelement wurde erfoglreich entfernt!"
+"The special element has been successfully copied!";"Das Spezialelement wurde erfoglreich kopiert!"
+"The movie has been successfully removed!";"Das Video wurde erfolgreich entfernt!"
+"The movie has been successfully copied!";"Das Video wurde erfolgreich kopiert!"
+"The room has been successfully removed!";"Das Zimmer wurde erfolgreich entfernt!"
+"The room has been successfully copied!";"Das Zimmer wurde erfolgreich kopiert!"
+Dashboard;Dashboard
+File;Datei
+"File (.mp4)";"Datei (.mp4)"
+"File (.ogv or .ogg)";"Datei (.ogv oder .ogg)"
+"File (.webm)";"Datei (.webm)"
+"File upload failed!";"Datei upload fehlgeschlagen!"
+Files;Dateien
+Data;Daten
+"Privacy policy";Datenschutz
+Date/Time;Datum/Uhrzeit
+"Debug IP Addresses, seperat with "";""";"Debug IP Adressen, getrennt mit "";"""
+Debug;Debuggen
+"The selected image area is to small!";"Der ausgewählte Bildausschnitt ist zu klein!"
+"The user is not assigned to a valid group!";"Der Benutzer ist keiner gültigen Benutzergruppe zugeordnet."
+"The username must be unique";"Der Benutzername darf noch nicht vorhanden sein"
+"The image override process is finished.";"Der Bilderüberschreibungsprozess ist beendet."
+"The latitude is required";"Der Breitengrad ist erforderlich"
+"The record could not be removed!";"Der Datensatz konnte nicht entfernt werden!"
+"Unable to save record!";"Der Datensatz konnte nicht gespeichert werden!"
+"The record has been updated.";"Der Datensatz wurde aktualisiert."
+"The record has been successfully removed!";"Der Datensatz wurde erfolgreich entfernt!"
+"The record has been created.";"Der Datensatz wurde erstellt."
+"The download has been successfully removed!";"Der Download wurde erfolgreich entfernt!"
+"The download has been successfully copied!";"Der Download wurde erfolgreich kopiert!"
+"The entry has been successfully removed!";"Der Eintrag wurde erfolgreich gelöscht!"
+"The family name is required";"Der Familienname ist erforderlich"
+"The hotel name is required";"Der Hotelname ist erforderlich"
+"The job has been successfully removed!";"Der Job wurde erfolgreich entfernt!"
+"The job has been successfully copied!";"Der Job wurde erfolgreich kopiert"
+"The longitude is required";"Der Längengrad ist erforderlich"
+"The link has been successfully removed!";"Der Link wurde erfolgreich entfernt!"
+"The link has been successfully copied!";"Der Link wurde erfolgreich kopiert!"
+"The node could not be deleted because it is in use!";"Der Menüpunkt konnte nicht gelöscht werden, weil er in Verwendung ist!"
+"A name is required";"Der name ist erforderlich"
+"The price draft has been successfully removed!";"Der Preisentwurf wurde erfolgreich entfernt!"
+"The teaser has been successfully removed!";"Der Teaser wurde erfolgreich entfernt!"
+"The teaser has been successfully copied!";"Der Teaser wurde erfolgreich kopiert!"
+"A ZMW is required";"Der ZMW ist erforderlich"
+"The zoom is required";"Der Zoom ist erforderlich"
+Details;Details
+"The AJAX request returned an unexpected error!";"Die AJAX Anfrage hat einen unerwarteten Fehler zurückgegeben!"
+"The top offer slider has been successfully removed!";"Die Angebotsgalerie wurde erfolgreich entfernt!"
+"The top offer slider has been successfully copied!";"Die Angebotsgalerie wurde erfolgreich kopiert!"
+"A room number is required";"Die Anzahl der verfügbaren Zimmer ist erforderlich"
+"The treatment has been successfully removed!";"Die Behandlung wurde erfolgreich entfernt!"
+"The treatment has been successfully copied!";"Die Behandlung wurde erfolgreich kopiert!"
+"The images have been successfully removed!";"Die Bilder wurden erfolgreich entfernt!"
+"The images have been successfully moved!";"Die Bilder wurden erfolgreich verschoben!"
+"The image gallery has been successfully removed!";"Die Bildergalerie wurde erfolgreich entfernt!"
+"The image gallery has been successfully copied!";"Die Bildergalerie wurde erfolgreich kopiert!"
+"Unable to save file!";"Die Datei konnte nicht gespeichert werden!"
+"The settings have been saved.";"Die Einstellungen wurden gespeichert."
+"The elements have been successfully removed!";"Die Elemente wurden erfolgreich entfernt!"
+"The elements have been successfully moved!";"Die Elemente wurden erfolgreich verschoben!"
+"Uploaded file exceeds the maximum filesize!";"Die hochgeladene Datei überschreitet die maximale Dateigröße!"
+"Unable to save category!";"Die Kategorie konnte nicht gespeichert werden!"
+"The category has been updated.";"Die Kategorie wurde aktualisiert."
+"The category has been successfully removed!";"Die Kategorie wurde erfolgreich entfernt!"
+"The category has been created.";"Die Kategorie wurde erstellt."
+"The configurations have been saved.";"Die Konfiguration wurde gespeichert."
+"Unable to save configurations!";"Die Konfigurationen konnten nicht gespeichert werden!"
+"The media blocks have been saved.";"Die Medienblöcke wurden gespeichert."
+"The menu group has been successfully removed!";"Die Menügruppe wurde erfolgreich entfernt!"
+"The menu group has been successfully copied!";"Die Menügruppe wurde erfolgreich kopiert!"
+"The node settings have been saved.";"die Menüpunkt-Einstellungen wurden gespeichert."
+"Unable to save structure!";"Die Navigationsstruktur konnte nicht gespeichert werden!"
+"The structure has been updated.";"Die Navigationsstruktur wurde aktualisiert."
+"The structure has been successfully removed!";"Die Navigationsstruktur wurde erfolgreich entfernt!"
+"The structure has been created.";"Die Navigationsstruktur wurde erstellt."
+"The package has been successfully removed!";"Die Pauschale wurde erfolgreich entfernt!"
+"The package has been successfully copied!";"Die Pauschale wurde erfolgreich kopiert!"
+"The number of persons is required";"Die Personenanzahl ist erforderlich"
+"The prices have been successfully saved.";"Die Preise wurden erfolgreich gespeichert."
+"The price option ""%s"" is not allowed here!";"Die Preisoption ""%s"" ist hier nicht erlaubt!"
+"Unable to save season!";"Die Saison konnte nicht gespeichert werden!"
+"The season has been updated.";"Die Saison wurde aktualisiert."
+"The season has been successfully removed!";"Die Saison wurde erfolgreich entfernt!"
+"The season has been created.";"Die Saison wurde erfolgreich erstellt."
+"The page has been successfully removed!";"Die Seite wurde erfolgreich entfernt!"
+"The page has been successfully copied!";"Die Seite wurde erfolgreich kopiert!"
+"The slideshow has been successfully removed!";"Die Slideshow wurde erfolgreich entfernt!"
+"The slideshow has been successfully copied!";"Die Slideshow wurde erfolgreich kopiert!"
+"There translation for ""%s"" is required!";"Die Übersetzung für ""%s"" ist erforderlich!"
+"The overview has been successfully removed!";"Die Übersicht wurde erfolgreich entfernt!"
+"The overview has been successfully copied!";"Die Übersicht wurde erfolgreich kopiert!"
+"The images are already in this category!";"Diese Bilder befinden sich bereits in der ausgewählten Kategorie!"
+"The elements are already in this category!";"Diese Element befinden sich bereits in der ausgewählten Kategorie!"
+"This price draft already exists!";"Dieser Preisentwurf existiert bereits!"
+"The selected image is to small for this purpose!";"Dieses Bild ist für diesen Verwendungszweck zu klein!"
+"Element can not be deleted as long as it is used in a structure!";"Dieses Element kann nicht gelöscht werden, solange es in einer Navigationsstruktur verwendet wird!"
+Download;Download
+"Edit download";"Download bearbeiten"
+"Download text";"Download Text"
+Downloads;Downloads
+Rotate;Drehen
+Print;Drucken
+E-Mail;E-Mail
+"E-Mail address";"E-Mail Adresse"
+"Email links have to look like this: %s";"E-Mail Links müssen folgendermaßen aussehen: %s"
+On;Ein
+"A back link is required";"Ein ""Zurück-Link"" ist erforderlich"
+"An API key is required";"Ein API Schlüssel ist erforderlich"
+"A username is required";"Ein Benutzername ist erforderlich"
+"A teaser text is required";"Ein Beschreibungstext ist erforderlich"
+"A subject is required";"Ein Betreff ist erforderlich"
+"An image is required";"Ein Bild ist erforderlich"
+"A latitude is required";"Ein Breitengrad ist erforderlich"
+"A state is required";"Ein Bundesland wird benötigt"
+"A date is required";"Ein Datum ist erforderlich"
+"An error has occurred, please try again!";"Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut!"
+"An error occured!";"Ein Fehler ist aufgetreten!"
+"A html title is required";"Ein HTML Titel ist erforderlich"
+"A content is required";"Ein Inhalt ist erforderlich"
+"A internal title is required";"Ein interner Titel ist erforderlich"
+"A map type is required";"Ein Kartentyp ist erforderlich"
+"A code is required";"Ein Kode ist erforderlich"
+"A country is required";"Ein Land wird benötigt"
+"A longitude is required";"Ein Längengrad ist erforderlich"
+"A link is required";"Ein Link ist erforderlich"
+"A mime type is required";"Ein MIME-Typ ist erforderlich"
+"A model is required";"Ein Modell ist erforderlich"
+"A lastname is required";"Ein Nachname ist erforderlich"
+"A original title is required";"Ein Originaltitel ist erforderlich"
+"A password is required";"Ein Passwort ist erforderlich"
+"A map is required";"Ein Plan ist erforderlich"
+"A SEO title is required";"Ein SEO Titel ist erforderlich"
+"A text is required";"Ein Text wird benötigt"
+"A theme is required";"Ein Theme ist erforderlich"
+"A title is required";"Ein Titel ist erforderlich"
+"A type is required";"Ein Typ ist erforderlich"
+"A linked element is required";"Ein verknüpftes Element ist erforderlich"
+"The video id is required";"Ein Video ist erforderlich"
+"A firstname is required";"Ein Vorname ist erforderlich"
+"A value is required";"Ein Wert ist erforderlich"
+"A range is required";"Ein Zeitraum ist erforderlich"
+"A target is required";"Ein Ziel ist erforderlich"
+"A room is required";"Ein Zimmer ist erforderlich"
+"A .mp4 file is required";"Eine .mp4 Datei ist erforderlich"
+"A address is required";"Eine Adresse ist erforderlich"
+"A api key id is required";"Eine API Schlüssel ID ist erforderlich"
+"A treatment category is required";"Eine Behandlungskategorie ist erforderlich"
+"A description is required";"Eine Beschreibung ist erforderlich"
+"A file is required";"Eine Datei ist erforderlich"
+"An file extension is required";"Eine Dateiendung ist erforderlich"
+"a domain";"eine Domain"
+"An email address is required";"Eine E-Mail Adresse ist erforderlich"
+"A fax number is required";"Eine Faxnummer wird benötigt"
+"A hotel id is required";"Eine Hotel ID ist erforderlich"
+"A services headline is required";"Eine Inklusivleistungen-Überschrift ist erforderlich"
+"A job category is required";"Eine Job Kategorie ist erforderlich"
+"A category is required";"Eine Kategorie ist erforderlich"
+"An category is required";"Eine Kategory ist erforderlich"
+"A last-minute offer category is required";"Eine Last-MInute Angeboteskategorie ist erforderlich"
+"A META description is required";"Eine META-Beschreibung ist erforderlich"
+"An option is required";"Eine Option ist erforderlich"
+"A package category is required";"Eine Pauchalenkategorie ist erforderlich"
+"A package is required";"Eine Pauschale ist erforderlich"
+"A zip code is required";"Eine PLZ wird benötigt"
+"A region is required";"Eine Region ist erforderlich"
+"A font is required";"Eine Schriftart ist erforderlich"
+"A page is required";"Eine Seite ist erforderlich"
+"A sketches is required";"Eine Skizze ist erforderlich"
+"A slideshow is required";"EIne Slideshow ist erforderlich"
+"A city is required";"Eine Stadt ist erforderlich"
+"A street is required";"Eine Straße ist erforderlich"
+"a subdomain";"eine Subdomain"
+"A phone number is required";"Eine Telefonnummer ist erforderlich"
+"A headline is required";"Eine Überschrift ist erforderlich"
+"The URL is required";"Eine URL ist erforderlich"
+"A webcam is required";"Eine Webcam ist erforderlich"
+"An room category is required";"Eine Zimmerkategorie ist erforderlich"
+"One or more images couldn't be cropped. Please try again!";"Eines oder mehrere Bilder konnten nicht zugeschnitten werden. Bitte versuchen Sie es erneut!"
+Insert;Einfügen
+"Some images could not be deleted because they are in use!";"Einige Bilder konnten nicht gelöscht werden, weil sie in Verwendung sind!"
+"Some images could not be uploaded:";"Einige Bilder konnten nicht gespeichert werden:"
+"Some elements could not be deleted because they are in use!";"Einige Elemente konnten nicht gelöscht werden, weil sie in Verwendung sind!"
+Settings;Einstellungen
+"Edit settings";"Einstellungen ändern"
+Element;Element
+"Select element";"Element auswählen"
+"Select item";"Element auswählen"
+"Remove item";"Element entfernen"
+"Add item";"Element hinzufügen"
+Elements;Elemente
+"Elements order";Elementereihenfolge
+Recipient;Empfänger
+"Recipient for ALL emails when debug mode is ON!";"Empfänger für ALLE E-Mails, wenn der ""Debug-Mode"" aktiv ist!"
+Remove;Entfernen
+Unlock/Lock;Entsperren/Sperren
+Development;Entwicklung
+"Move draft";"Entwurf verschieben"
+"Accepted file formats: .pdf, .doc, .docx, .zip";"Erlaubte Dateiformate: .pdf, .doc, .docx, .zip"
+Adults;Erwachsene
+Export;Exportieren
+External;Extern
+"External relations";"Externe ID's"
+"External links have to look like this: %s";"Externe Links müssen folgendermaßen aussehen: %s"
+"If blank, the default loader is used.";"Falls leer, wird die Standardladeanimation verwendet."
+Family;Familie
+"Fax number (formatted)";"Fax Nummer (formatiert)"
+"Missing group ID";"Fehlende Gruppen ID"
+"Missing PHP extension ""Imagick""!";"Fehlende PHP Erweiterung ""Imagick""!"
+Form;Formular
+"Edit form";"Formular bearbeiten"
+Forms;Formulare
+"Form history";Formularverlauf
+Spring;Frühling
+"There are no settings for this theme available!";"Für dieses Theme sind keine Einstellungen vorhanden!"
+Footer;Fußzeile
+"Full width teaser";Ganze-Breite-Teaser
+"Full width teasers";Ganze-Breite-Teaser
+"Edit full width teaser";"Ganze-Breite-Teaser bearbeiten"
+Birthday;Geburtstag
+Geo;Geo
+Protected;Geschützt
+"Same window";"Gleiches Fenster"
+Google;Google
+"Google Analytics - Tracking ID";"Google Analytics - Tracking ID"
+"Google Tagmanager - Body Code";"Google Tagmanager - ""<body>""-Code"
+"Google Tagmanager - Head Code";"Google Tagmanager - ""<head>""-Code"
+Group;Gruppe
+Groups;Gruppen
+"Update group";"Gruppen bearbeiten"
+"Group actions";Gruppenaktionen
+"Group information";Gruppeninformationen
+"Groups overview";Gruppenübersicht
+"Valid times";"Gültige Zeiträume"
+Coupon;Gutschein
+voucher;Gutschein
+Vouchers;Gutscheine
+"Coupon type";Gutscheintyp
+Hello;Hallo
+Header;Header
+"Header (Summer)";"Header (Sommer)"
+"Header (Winter)";"Header (Winter)"
+"Header teaser";"Header Teaser"
+"Header teasers";"Header Teaser"
+"Edit header teaser";"Header Teaser bearbeiten"
+Autumn;Herbst
+Add;Hinzufügen
+Up;Hoch
+Holidaycheck;Holidaycheck
+"Hotel id";"Hotel ID"
+"Hotel name";Hotelname
+"HTML title";"HTML Titel"
+"Your user has been updated.";"Ihr Benutzer wurde aktualisiert."
+"Used in the element ""%s""%s%s";"Im Element ""%s"" verwendet%s%s"
+"Used in the element ""%s"" of the type ""%s""%s%s";"Im Element ""%s"" vom Typ ""%s"" verwendet%s%s"
+clockwise;"im Uhrzeigersinn"
+"Impressions teaser";Impressionsteaser
+"Impressions teasers";Impressionsteaser
+"Edit impressions teaser";"Impressionsteaser bearbeiten"
+Imprint;Impressum
+"Used in configuration ""%s""%s";"In der Konfiguration ""%s"" verwendet%s"
+"Used in configuration";"In der Konfiguration verwendet"
+"Used in structure ""%s""";"In der Navigationsstruktur ""%s"" verwendet"
+"Used in an element%s";"In einem Element verwendet%s"
+"Used in a structure";"In einer Navigationsstruktur verwendet"
+"Show in menu";"In Menü anzeigen"
+Information;Informationen
+Content;Inhalt
+"Content/Teaser (square)";"Inhalt/Teaser (Quadratisch)"
+"Included services";Inklusivleistungen
+"Included services headline";Inklusivleistungen-Überschrift
+Interests;Interessen
+"Detect internal links";"Interne Links aufspüren"
+"Internal name";"Interner Name"
+"Internal title";"Interner Titel"
+"IP Address(es)";"IP Adresse(n)"
+Yes;Ja
+Job;Job
+"Edit job";"Job bearbeiten"
+"Job categories";"Job Kategorien"
+Jobs;Jobs
+"Map type";Kartentyp
+Category;Kategorie
+"Select category";"Kategorie auswählen"
+"Edit category";"Kategorie bearbeiten"
+"Update category";"Kategorie bearbeiten"
+"Create category";"Kategorie erstellen"
+"Category could not be deleted because it contains elements that are in use!";"Kategorie konnte nicht gelöscht werden, weil sie Elemente enthält die in Verwendung sind!"
+"Delete category";"Kategorie löschen"
+Categories;Kategorien
+"Select categories";"Kategorien auswählen"
+"Categories order";"Kategorien Reihenfolge"
+"Sort categories";"Kategorien sortieren"
+"No link";"Kein Link"
+"No images available";"Keine Bilder verfügbar"
+"No data available";"Keine Daten vorhanden"
+"No data available!";"Keine Einträge vorhanden!"
+"No elements found, to save prices for!";"Keine Elemente gefunden, für die Preise gespeichert werden können!"
+"No configuration settings available!";"Keine Konfigurationseinstellungen vorhanden!"
+"No node settings settings available!";"Keine Menüpunkt-Einstellungen vorhanden!"
+"No translations available!";"Keine Übersetzungen vorhanden!"
+Children;Kinder
+"Children prices";Kinderpreise
+"Small teasers";"Kleine Teaser"
+"Edit small teaser";"Kleinen Teaser bearbeiten"
+"Small Teaser";"Kleiner Teaser"
+Comment;Kommentar
+Configuration;Konfiguration
+Contact;Kontakt
+Copy;Kopieren
+Country;Land
+Countries;Länder
+Longitude;Längengrad
+Last-minute;Last-Minute
+"Last-minute offer";"Last-Minute Angebot"
+"Edit last-minute offer";"Last-Minute Angebot bearbeiten"
+"Last-minute offers";"Last-Minute Angebote"
+"Last-minute offer category";"Last-Minute Angebotskategorie"
+"Leave blank if the password should not be changed.";"Leer lassen wenn das Passwort nicht geändert werden soll."
+Link;Link
+"Link 1";"Link 1"
+"Link 2";"Link 2"
+"Select link";"Link auswählen"
+"Edit link";"Link bearbeiten"
+"Insert link";"Link einfügen"
+"Link with leading protocol (f.e. http://)";"Link mit Protokoll (z.B.: http://)"
+"Link without protocol";"Link ohne Protokoll"
+"Link text";"Link Text"
+"Link URL";"Link URL"
+Links;Links
+List;Liste
+"List of translations was updated!";"Liste der Übersetzungen wurde aktualisiert!"
+Delete;Löschen
+"Move selected files";"Markierte Dateien verschieben"
+"Move selected elements";"Markierte Elemente verschieben"
+"Max. %s elements allowed!";"Max. %s Elemente erlaubt!"
+"Max. %s chars!";"Max. %s Zeichen!"
+Media;Medien
+"Change media";"Medien ändern"
+"Menu group";Menügruppe
+"Edit menu group";"Menügruppe bearbeiten"
+"Menu groups";Menügruppen
+Node;Menüpunkt
+"Node not found!";"Menüpunkt nicht gefunden!"
+"Node settings";Menüpunkt-Einstellungen
+"Unable to save node settings!";"Menüpunkt-Einstellungen konnten nicht gespeichert werden!"
+Nodes;Menüpunkte
+"META description";META-Beschreibung
+"Mime type";Mime-Type
+"Min. %s chars!";"Min. %s. Zeichen!"
+"At least one theme has to be specified!";"Mindestens ein Theme muss angegeben werden!"
+"Tiny Teaser";"Mini Teaser"
+"Tiny teasers";"Mini Teaser"
+"Edit tiny teaser";"Mini Teaser bearbeiten"
+Member;Mitglied
+center;mitte
+Lastname;Nachname
+"Lastname recipient";"Nachname (Empfänger)"
+Message;Nachricht
+Name;Name
+"Edit structure";"Navigationsstruktur bearbeiten"
+"Update structure";"Navigationsstruktur bearbeiten"
+"Create structure";"Navigationsstruktur erstellen"
+"Delete structure";"Navigationsstruktur löschen"
+No;Nein
+"Create new treatment";"Neue Behandlung erstellen"
+"Add new treatment";"Neue Behandlung hinzufügen"
+"Create new image gallery";"Neue Bildergalerie erstellen"
+"Add new image gallery";"Neue Bildergalerie hinzufügen"
+"Create new group";"Neue Gruppe erstellen"
+"Create new category";"Neue Kategorie erstellen"
+"Create new menu group";"Neue Menügruppe erstellen"
+"Add new menu group";"Neue Menügruppe hinzufügen"
+"Create new structure";"Neue Navigationsstruktur erstellen"
+"Create new package";"Neue Pauschale erstellen"
+"Add new package";"Neue Pauschale hinzufügen"
+"Create new season";"Neue Saison erstellen"
+"Add new season";"Neue Saison hinzufügen"
+"Create new page";"Neue Seite erstellen"
+"Add new page";"Neue Seite hinzufügen"
+"Create new slideshow";"Neue Slideshow erstellen"
+"Add new slideshow";"Neue Slideshow hinzufügen"
+"Create new overview";"Neue Übersicht erstellen"
+"Add new overview";"Neue Übersicht hinzufügen"
+"Create new top offer slider";"Neuen Angebotsgalerie erstellen"
+"Add new top offer slider";"Neuen Angebotsgalerie hinzufügen"
+"Create new user";"Neuen Benutzer erstellen"
+"Create new download";"Neuen Download erstellen"
+"Add new download";"Neuen Download hinzufügen"
+"Create new full width teaser";"Neuen Ganze-Breite-Teaser erstellen"
+"Create new header teaser";"Neuen Header Teaser erstellen"
+"Create new impressions teaser";"Neuen Impressionsteaser erstellen"
+"Create new job";"Neuen Job erstellen"
+"Add new job";"Neuen Job hinzufügen"
+"Create new small teaser";"Neuen Kleinen Teaser erstellen"
+"Create new link";"Neuen Link erstellen"
+"Add new link";"Neuen Link hinzufügen"
+"Create new tiny teaser";"Neuen Mini Teaser erstellen"
+"Create new price draft";"Neuen Preisentwurf erstellen"
+"Add new teaser";"Neuen Teaser hinzufügen"
+"New window";"Neues Fenster"
+"Create new form";"Neues Formular erstellen"
+"Add new form";"Neues Formular hinzufügen"
+"Create new last-minute offer";"Neues Last-Minute Angebot erstellen"
+"Add new last-minute offer";"Neues Last-Minute Angebot hinzufügen"
+"Create new special element";"Neues Spezialelement erstellen"
+"Add new special element";"Neues Spezialelement hinzufügen"
+"Create new movie";"Neues Video erstellen"
+"Add new movie";"Neues Video hinzufügen"
+"Create new room";"Neues Zimmer erstellen"
+"Add new room";"Neues Zimmer hinzufügen"
+Newsletter;Newsletter
+"Newsletter registrations";Newsletteranmeldungen
+"Unsaved changes will be lost if you change the language!";"Nicht gespeicherte Änderungen gehen verloren, wenn Sie zu einer anderen Sprache wechseln!"
+"top left";"oben links"
+"Top right";"Oben rechts"
+"Opening hours";Öffnungszeiten
+"Opening hours are required";"Öffnungszeiten sind erforderlich"
+Ok;Ok
+OK;OK
+"Online booking";Onlinebuchung
+"Option 1: Holiday";"Option 1: Urlaub"
+"Option 2: Voucher";"Option 2: Wertgutschein"
+Original;Original
+"Original title";Originaltitel
+Panorama;Panorama
+Partner;Partner
+Password;Passwort
+Package;Pauchale
+"Edit package";"Pauschale bearbeiten"
+Packages;Pauschalen
+"Select packages";"Pauschalen auswählen"
+"Package image";Pauschalenbild
+"Package category";Pauschalenkategorie
+"Number of persons";Personenanzahl
+"Number of persons for packages";"Personenanzahl für Pauschalen"
+ZIP;PLZ
+"Zip code";PLZ
+Price;Preis
+"Delete price";"Preis löschen"
+Prices;Preise
+"Edit prices";"Preise bearbeiten"
+"Manage prices";"Preise verwalten"
+"Price draft";Preisentwurf
+"Edit price draft";"Preisentwurf bearbeiten"
+"Create price draft to add prices";"Preisentwurf erstellen um Preise hinzuzufügen"
+"Delete price draft";"Preisentwurf löschen"
+"Price draft order";"Preisentwurf Reihenfolge"
+"Add price draft to all items";"Preisentwurf zu allen Elementen hinzufügen"
+"Sort price drafts";"Preisentwürfe sortieren"
+"Press & Downloads";"Presse & Downloads"
+Brochure;Prospekt
+Brochures;Prospekte
+Source;Quelltext
+Backend;Redaktion
+References;Referenzen
+Region;Region
+Restaurant;Restaurant
+Last-Minute;Restplatz
+"Robots follow";"Robots Follow"
+"Robots index";"Robots Index"
+Routeplanner;Routenplaner
+Callback;Rückruf
+"Edit season";"Saison bearbeiten"
+"Update season";"Saison bearbeiten"
+"Create season";"Saison erstellen"
+"Delete season";"Saison löschen"
+Seasons;Saisonen
+Close;Schließen
+Font;Schriftart
+Page;Seite
+"Show page";"Seite anzeigen"
+"Select page";"Seite auswählen"
+"Edit page";"Seite bearbeiten"
+"Add page";"Seite hinzufügen"
+Pages;Seiten
+SEO;SEO
+"SEO title";"SEO Titel"
+"You are not allowed to delete your own user!";"Sie dürfen Ihren eigenen Benutzer nicht löschen!"
+"Get API key from %s (create new project for every website!)";"Sie erhalten den API Schlüssel von %s (neues Projekt erstellen für jede Webseite!)"
+"You find it in the Seekda channel manager under Dynamic Shop / Integration / erweitert";"Sie finden diese Information im Seekda Channel Manager unter ""Dynamic Shop"" / ""Intergration"" / ""erweitert"""
+"Get this from Google Analytics / Manage / Property / Tracking-Information";"Sie finden diese Information in Google Analytics unter ""Verwalten"" / ""Property"" / ""Tracking-Informationen"""
+"Get this from Google Tagmanager / Manage / install Google Tagmanager";"Sie finden diese Information in Google Tagmanager unter ""Verwalten"" / ""Google Tagmanager installieren"""
+"You do not have the permissions to perform this action!";"Sie haben nicht die nötigen Rechte um diese Aktion auszuführen!"
+"You've logged in successfully!";"Sie haben sich erfogreich eingeloggt!"
+"You need to create a category in order to upload images!";"Sie müssen eine Kategorie anlegen, um Bilder zu speichern!"
+"You need to create a related element first!";"Sie müssen zuerst ein Element erstellen, auf das Bezug genommen werden kann!"
+"You need to create a related season first!";"Sie müssen zuerst ein Saison erstellen, auf die Bezug genommen werden kann!"
+"You need to create a category first!";"Sie müssen zuerst eine Kategorie anlegen!"
+"You need to create a structure first!";"Sie müssen zuerst eine Navigationsstruktur erstellen!"
+"You need to create a season first!";"Sie müssen zuerst eine Saison erstellen!"
+"You are not allowed to edit this user!";"Sie nicht dazu berechtigt, diesen Benutzer zu bearbeiten!"
+Sitemap;Sitemap
+Slideshow;Slideshow
+"Select slideshow";"Slideshow auswählen"
+"Edit slideshow";"Slideshow bearbeiten"
+Slideshows;Slideshows
+Summer;Sommer
+"Summer start date";Sommerbeginn
+Sort;Sortieren
+Columns;Spalten
+Save;Speichern
+"Save an back";"Speichern und zurück"
+Special;Spezialelement
+Specials;Spezialelemente
+"Edit special element";"Spezialelemente bearbeiten"
+"Special behavior";Spezialverhalten
+Language;Sprache
+Languages;Sprachen
+Jump;Springen
+Citizenship;Staatsbürgerschaft
+City;Stadt
+Default;Standard
+"Standard pages";Standardseiten
+Home;Startseite
+Status;Status
+Street;Straße
+Structure;Struktur
+Structures;Strukturen
+Search;Suche
+Teaser;Teaser
+Teasers;Teaser
+"a url part";"Teil einer URL"
+Phone;Telefon
+Telephone;Telefon
+"Telephone links have to look like this: %s";"Telefon Links müssen folgendermaßen aussehen: %s"
+"Phone number (plain)";Telefonnummer
+"Phone number (formatted)";"Telefonnummer (formatiert)"
+Text;Text
+"Select text";"Text auswählen"
+Textblock;Textblock
+Theme;Theme
+"Table reservation";Tischreservierung
+Title;Titel
+"Title recipient";"Titel (Empfänger)"
+"Top offers";"Top Angebote"
+"Select tour";"Tour auswählen"
+Tracking;Tracking
+Tripadvisor;Tripadvisor
+Type;Typ
+"Parent category";"Übergeordnete Kategorie"
+Override;Überschreiben
+Headline;Überschrift
+"Headline %s";"Überschrift %s"
+"Headline for column %s";"Überschrift für Spalte %s"
+Translate;Übersetzen
+Translation;Übersetzung
+"Translation not found!";"Übersetzung nicht gefunden!"
+Translations;Übersetzungen
+"Fetch translations";"Übersetzungen auslesen"
+"Translations saved!";"Übersetzungen gespeichert!"
+Overview;Übersicht
+"Edit overview";"Übersicht bearbeiten"
+Overviews;Übersichten
+"Toggle (jump, show, lock, robots-index, robots-follow)";"Umschalten (springen, zeigen, sperren, robots-index, robots-follow)"
+Unknown;Unbekannt
+"Invalid request!";"Ungültige Anfrage!"
+"Invalid email address";"Ungültige E-Mail Adresse"
+"Invalid categories setting for images!";"Ungültige Kategorieeinstellungen für Bilder!"
+"Invalid categories setting for element!";"Ungültige Kategorieeinstellungen für dieses Element!"
+"Invalid number";"Ungültige Nummer"
+"Invalid URL";"Ungültige URL"
+"Invalid username or password, try again!";"Ungültiger Benutzername oder Passwort!"
+"Invalid image type!";"Ungültiger Bildtyp!"
+"bottom left";"unten links"
+"Bottom left";"Unten links"
+"bottom right";"unten rechts"
+Upload;Upload
+"Upload failed.";"Upload fehlgeschlagen."
+URL;URL
+"URL filter";"URL Filter"
+"Validation faild!";"Validierung fehlgeschlagen!"
+"Number of rooms";"Verfügbare Zimmer"
+Forgot;Vergessen
+"Related page";"Verknüpfte Seite"
+"Linked element";"Verknüpftes Element"
+Move;Verschieben
+Purposes;Verwendungszwecke
+Movie;Video
+"Edit movie";"Video bearbeiten"
+"Video ID";"Video ID"
+Movies;Videos
+Videos;Videos
+Vimeo;Vimeo
+Firstname;Vorname
+"Firstname recipient";"Vorname (Empfänger)"
+Preview;Vorschau
+Pre-headline;Vorüberschrift
+"Choose a font to display the weather icons.";"Wählen Sie eine Schriftart um die Wettersymbole anzuzeigen."
+Webcam;Webcam
+Website;Webseite
+"Wellness & Beauty";"Wellenss & Beauty"
+"Wellness map";Wellnessplan
+"Wellness plan";Wellnessplan
+Value;Wert
+"Value %s";"Wert %s"
+"Value %s for line %s";"Wert %s für Zeile %s"
+Weather;Wetter
+Winter;Winter
+"Winter start date";Winterbeginn
+"Do you really want to delete this and all containing nodes?";"Wollen diesen und alle enthaltenen Menüpunkte wirklich löschen?"
+"Do you realy want to delete the selected images?";"Wollen Sie ausgewählten Bilder wirklich löschen?"
+"Do you realy want to move the selected images to ""%s""?";"Wollen Sie die ausgewählten Bilder wirklich nach ""%s"" verschieben?"
+"Do you realy want to delete the selected elements?";"Wollen Sie die ausgewählten Elemente wirklich löschen?"
+"Do you realy want to move the selected elements to ""%s""?";"Wollen Sie die ausgewählten Elemente wirklich nach ""%s"" verschieben?"
+"Do you really want to delete this top offer slider?";"Wollen Sie diese Angebotsgalerie wirklich löschen?"
+"Do you really want to delete this treatment?";"Wollen Sie diese Behandlung wirklich löschen?"
+"Do you really want to delete this image gallery?";"Wollen Sie diese Bildergalerie wirklich löschen?"
+"Do you really want to delete this group?";"Wollen Sie diese Gruppe wirklich löschen?"
+"Do you realy want to delete this category with all containing subcategories and images?";"Wollen Sie diese Kategorie mit allen enthaltenen Unterkategorien und Bildern wirklich löschen?"
+"Do you realy want to delete this category with all containing items?";"Wollen Sie diese Kategorie mit allen enthaltenen Unterkategorien und Elementen wirklich löschen?"
+"Do you really want to delete this menu group?";"Wollen Sie diese Menügruppe wirklich entfernen?"
+"Do you really want to delete this package?";"Wollen Sie diese Pauschale wirklich löschen?"
+"Do you realy want to delete this season with all containing prices?";"Wollen Sie diese Saison und alle enthaltenen Preise wirklich löschen?"
+"Do you really want to delete this page?";"Wollen Sie diese Seite wirklich löschen?"
+"Do you really want to delete this slideshow?";"Wollen Sie diese Slideshow wirklich löschen?"
+"Do you really want to delete this overview?";"Wollen Sie diese Übersicht wirklich löschen?"
+"Do you really want to delete this user?";"Wollen Sie diesen Benutzer wirklich löschen?"
+"Do you really want to delete this download?";"Wollen Sie diesen Download wirklich löschen?"
+"Do you really want to delete this entry?";"Wollen Sie diesen Eintrag wirklich löschen?"
+"Do you really want to delete this job?";"Wollen Sie diesen Job wirklich löschen?"
+"Do you really want to delete this link?";"Wollen Sie diesen Link wirklich löschen?"
+"Do you really want to delete this price?";"Wollen Sie diesen Preis wirklich löschen?"
+"Do you really want to delete this price draft and all related prices?";"Wollen Sie diesen Preisentwurf und alle verknüpften Preise wirklich löschen?"
+"Do you really want to add this price draft to every item?";"Wollen Sie diesen Preisentwurf wirklich zu allen Elementen hinzufügen?"
+"Do you really want to delete this teaser?";"Wollen Sie diesen Teaser wirklich löschen?"
+"Do you really want to remove this period?";"Wollen Sie diesen Zeitraum wirklich entfernen?"
+"Do you realy want to delete this image?";"Wollen Sie dieses Bild wirklich löschen?"
+"Do you really want to remove this item?";"Wollen Sie dieses Element wirklich entfernen?"
+"Do you really want to delete this form?";"Wollen Sie dieses Formular wirklich löschen?"
+"Do you really want to delete this last-minute offer?";"Wollen Sie dieses Last-Minute Angebot wirklich löschen?"
+"Do you realy want to delete this structure?";"Wollen Sie dieses Navigationsstruktur wirklich löschen?"
+"Do you really want to delete this special element?";"Wollen Sie dieses Spezialelement wirklich löschen?"
+"Do you really want to delete this movie?";"Wollen Sie dieses Video wirklich löschen?"
+"Do you really want to delete this room?";"Wollen Sie dieses Zimmer wirklich löschen?"
+YouTube;YouTube
+"Open f.e. ""%s"" to get ZMW";"z.B.: ""%s"" öffnen, um ZMW zu erhalten"
+"Line %s";"Zeile %s"
+"Line 1";"Zeile 1"
+"Line 2";"Zeile 2"
+Times;Zeiten
+Period;Zeitraum
+"Remove period";"Zeitraum entfernen"
+"Add period";"Zeitraum hinzufügen"
+Periods;Zeiträume
+Target;Ziel
+Room;Zimmer
+Rooms;Zimmer
+"Room total";"Zimmer (gesamt)"
+"Select room";"Zimmer auswählen"
+"Edit room";"Zimmer bearbeiten"
+"Room images";Zimmerbilder
+"Room category";Zimmerkategorie
+"Room sketches";Zimmerskizzen
+"Select sketches";"Zimmerskizzen auswählen"
+ZMW;ZMW
+Zoom;Zoom
+"Edit login information";"Zugangsdaten ändern"
+Back;Zurück
+"Back to structure";"Zurück zur Strucktur"
+"Back to overview";"Zurück zur Übersicht"
+"Back link";Zurück-Link
+Caption;Zusatz
+Crop;Zuschneiden
+"Blanks automatically created!";"Zuschnitte automatisch erstellt!"

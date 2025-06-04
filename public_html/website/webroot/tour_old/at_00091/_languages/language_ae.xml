@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.1.8">
+
+	<message
+		home				= "Loading start panorama..."
+		rotation_on			= "Rotation started..."
+		rotation_off		= "Rotation stopped..."
+		slideshow_on		= "Slideshow started..."
+		slideshow_off		= "Slideshow stopped..."
+		sound_on			= "Playing music..."
+		sound_off			= "Music paused..."
+		map_on				= "Showing Google Maps..."
+		map_off				= "Hiding Google Maps..."
+		floorplan_on		= "Showing floor plan..."
+		floorplan_off		= "Hiding floor plan..."
+		floorplaninfo_on	= "Showing information..."
+		floorplaninfo_off	= "Hiding information..."
+		weather_on			= "Showing weather..."
+		weather_off			= "Hiding weather..."
+		sitemap_on			= "Showing site map..."
+		sitemap_off			= "Hiding site map..."
+		help_on				= "Showing help..."
+		help_off			= "Hiding help..."
+		guidedtour_on		= "Starts guided tour..."
+		guidedtour_off		= "Stops guided tour..."
+        webvr_on   			= "Starts Virtual Reality Version..."
+        webvr_off   		= "Stops Virtual Reality Version..."
+        gyroscope_on		= "Gyroscope control enabled..."
+        gyroscope_off		= "Gyroscope control disabled..."
+        info_on		        = "Infos shown..."
+        info_off	    	= "Infos hidden..."
+		/>
+	<message_hover
+		home				= "Load start panorama"
+		home_online			= "Show website"
+		rotation_on			= "Start panorama rotation"
+		rotation_off		= "Stop panorama rotation"
+		slideshow_on		= "Start slideshow"
+		slideshow_off		= "Stop slideshow"
+		sound_on			= "Play music"
+		sound_off			= "Pause music"
+		map_on				= "Show Google Maps"
+		map_off				= "Hide Google Maps"
+		floorplan_on		= "Show floor plan"
+		floorplan_off		= "Hide floor plan"
+		floorplaninfo_on	= "Show information"
+		floorplaninfo_off	= "Hide information"
+		weather_on			= "Show weather"
+		weather_off			= "Hide weather"
+		sitemap_on			= "Show sitemap"
+		sitemap_off			= "Hide sitemap"
+		help_on				= "Show help"
+		help_off			= "Hide help"
+		toggle				= "Hide menu bar"
+		fullscreen_on		= "Start fullscreen-mode"
+		fullscreen_off		= "End fullscreen-mode"
+		facebook			= "Open Facebook-Profile"
+		facebook-share		= "Share on Facebook"
+		twitter				= "Open Twitter-Profile"
+		twitter-share		= "Tweet sur ​​Twitter"
+		book				= "Book"
+		guidedtour_on		= "Start guided tour"
+		guidedtour_off		= "Stop guided tour"
+        webvr_on   			= "Start Virtual Reality Version"
+        webvr_off   		= "Stop Virtual Reality Version"
+        gyroscope_on		= "Enable gyroscope control"
+        gyroscope_off		= "Disable gyroscope control"
+        info_on		        = "Show Infos"
+        info_off	    	= "Hide Infos"
+		/>
+	<error
+		fatal				= "The 360° virtual tour could not be loaded from the server. Please make sure you have an internet connection and try again. If this keeps happening, please contact the provider of this tour."
+		fullscreen			= "Please exit the fullscreen mode"
+		stopVideo			= "Please stop video..."
+		weatherUnavailable	= "Weather data unavailable..."
+	/>
+	<days
+		now					= "Now"
+		today				= "Today"
+		monday				= "Monday"
+		tuesday				= "Tuesday"
+		wednesday			= "Wednesday"
+		thursday			= "Thursday"
+		friday				= "Friday"
+		saturday			= "Saturday"
+		sunday				= "Sunday"
+	/>
+	<email
+		subject				= "Information request via virtual 360° panoramic tour"
+		body				= "Hello"
+	/>
+	<interface
+		back				= "back"
+		back-to             = "Back to"
+        menu-button         = "Menu"
+        creator             = "Fotograf"
+        disclaimer 			= "The illustrations and descriptions are only schematic!"
+        guided-tour-selector = "Guided tour"
+    />
+	<help
+		toggle				= "Show/Hide menu"
+		fullscreen			= "Normal- or fullscreen mode"
+		home				= "Restart virtual 360° tour"
+		slideshow			= "Start/Stop Panorama-Slideshow"
+		sound				= "Start/Pause sound"
+		rotation			= "Start/Stop Panorama Rotation"
+		floorplan			= "Show/Hide floor plan of the current panorama"
+		map					= "Show/Hide Google Maps"
+		weather				= "Show/Hide weather forecast"
+		sitemap				= "Show/Hide site map"
+        guidedtour          = "Start guided tour"
+		email				= "send e-mail"
+		info				= "Show/Hide contact sheet"
+        facebook			= "Open Facebook-Profile"
+        facebook-share		= "Share on Facebook"
+        twitter				= "Open Twitter-Profile"
+        twitter-share		= "Tweet sur ​​Twitter"
+		rss					= "Show RSS-Feed"
+		book				= "Book hotel or Room"
+        webvr   			= "Start/Stop Virtual Reality Version"
+        gyroscope		    = "Enable/Disable gyroscope control"
+		other				= "In the main menu you can navigate between the different areas or select a preview picture. After clicking on a preview picture a new panorama will be loaded."
+	/>
+	<privacy
+		name				= "Privacy Policy"
+		text				= "This site uses technologies from etracker GmbH (www.etracker.com) to collect and store data for analysis purposes. The collected data will not be used to identify or create a user profile of the visitors to this website."
+		disable				= "Deactivate Tracking"
+	/>
+	<explanation_click
+		caption				= "Control of the panorama"
+		move				= "Panorama rotation:Hold left mouse button and move the mouse."
+		zoom				= "Panorama zoom:Scroll the mouse wheel to zoom in or out."
+	/>
+	<explanation_touch
+		caption				= "Control of the panorama"
+		move				= "Panorama rotation: Tap on the screen and rotate left or right."
+		zoom				= "Panorama zoom: Use thumb and forefinger to zoom in and zoom out."
+	/>
+    <webvrsettings
+        title               =   "Please choose your vr-goggles."
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+</language>

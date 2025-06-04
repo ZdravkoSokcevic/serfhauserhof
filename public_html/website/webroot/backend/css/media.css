@@ -1,0 +1,114 @@
+
+/* media block css */
+
+section.main-content .elements.media .block-spacer.center {
+    width: 40%;
+    float: left;
+    padding: 0 20px;
+}
+
+section.main-content .elements.media .block {
+    width: 100%;
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px;
+    min-height: 150px;
+    position: relative;
+}
+
+section.main-content .elements.media .block.bar {
+    
+}
+
+section.main-content .elements.media .block.left,
+section.main-content .elements.media .block.right {
+    float: left;
+    width: 30%;
+    min-width: 480px;
+}
+
+section.main-content .elements.media .block.right {
+    float: right;
+}
+
+section.main-content .elements.media .block > div.label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+    background-color: #DDDDDD;
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+}
+
+section.main-content .elements.media .block > a.add {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #dddddd;
+}
+
+section.main-content .elements.media .block:hover > a.add,
+section.main-content .elements.media .block > a.add:hover {
+    color: #57a000;
+}
+
+section.main-content .elements.media .block > div.item {
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    background-color: #F6F6F6;
+    margin: 5px;
+    cursor: move;
+    height: 102px;
+    overflow: hidden;
+    float: left;
+}
+
+section.main-content .elements.media .block > div.item div.img,
+section.main-content .elements.media .block > div.item i {
+    float: left;
+}
+
+section.main-content .elements.media .block > div.item div.img {
+    width: 100px;
+    height: 80px;
+    background-color: #FFFFFF;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #d5d5d5;
+}
+
+section.main-content .elements.media .block > div.item i {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 55px;
+}
+
+section.main-content .elements.media .block > div.item div.info {
+    float: left;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    width: 351px;
+}
+
+section.main-content .elements.media .block > div.item.image div.info {
+    width: 306px;
+}
+
+section.main-content .elements.media .block > div.item.element div.info {
+    width: 351px;
+}
+
+section.main-content .elements.media .block > div.item div.info span {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+section.main-content .elements.media .block > div.item div.info span a {
+    float: right;
+    color: #555555;
+}

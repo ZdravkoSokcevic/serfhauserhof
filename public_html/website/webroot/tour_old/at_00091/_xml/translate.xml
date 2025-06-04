@@ -1,0 +1,170 @@
+<data>
+	<row>
+		<cell><![CDATA[de]]></cell>
+		<cell><![CDATA[en]]></cell>
+		<cell><![CDATA[fr]]></cell>
+		<cell><![CDATA[it]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Bad]]></cell>
+		<cell><![CDATA[Bathroom]]></cell>
+		<cell><![CDATA[La salle de bain]]></cell>
+		<cell><![CDATA[Bagno]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Bad 1]]></cell>
+		<cell><![CDATA[Bathroom 1]]></cell>
+		<cell><![CDATA[La salle de bain 1]]></cell>
+		<cell><![CDATA[Bagno 1]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Bad 2]]></cell>
+		<cell><![CDATA[Bathroom 2]]></cell>
+		<cell><![CDATA[La salle de bain 2]]></cell>
+		<cell><![CDATA[Bagno 2]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Dampfbad]]></cell>
+		<cell><![CDATA[Steam bath]]></cell>
+		<cell><![CDATA[Le bain de vapeur]]></cell>
+		<cell><![CDATA[Il bagno di vapore]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Doppelzimmer]]></cell>
+		<cell><![CDATA[Double room]]></cell>
+		<cell><![CDATA[Chambre double]]></cell>
+		<cell><![CDATA[Camera doppia]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Sauna]]></cell>
+		<cell><![CDATA[Sauna]]></cell>
+		<cell><![CDATA[Sauna]]></cell>
+		<cell><![CDATA[Sauna]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Á la Carte-Restaurant]]></cell>
+		<cell><![CDATA[Á la Carte-Restaurant]]></cell>
+		<cell><![CDATA[Á la Carte-Restaurant]]></cell>
+		<cell><![CDATA[Á la Carte-Restaurant]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Speisesaal]]></cell>
+		<cell><![CDATA[Breakfast room]]></cell>
+		<cell><![CDATA[Restaurant]]></cell>
+		<cell><![CDATA[Ristorante]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Rezeption / Lobby]]></cell>
+		<cell><![CDATA[Reception / Lobby]]></cell>
+		<cell><![CDATA[Réception / Hall]]></cell>
+		<cell><![CDATA[Reception / Ingresso]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Ruheraum ]]></cell>
+		<cell><![CDATA[Relaxation room]]></cell>
+		<cell><![CDATA[Salle de détente]]></cell>
+		<cell><![CDATA[Sala relax]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Saunabereich]]></cell>
+		<cell><![CDATA[Sauna area]]></cell>
+		<cell><![CDATA[l'espace sauna]]></cell>
+		<cell><![CDATA[l'area sauna]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Saunarondell]]></cell>
+		<cell><![CDATA[Sauna area]]></cell>
+		<cell><![CDATA[l'espace sauna]]></cell>
+		<cell><![CDATA[l'area sauna]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Speisesaal 1]]></cell>
+		<cell><![CDATA[Restaurant 1]]></cell>
+		<cell><![CDATA[Restaurant 1]]></cell>
+		<cell><![CDATA[Ristorante 1]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Speisesaal 2]]></cell>
+		<cell><![CDATA[Restaurant 2]]></cell>
+		<cell><![CDATA[Restaurant 2]]></cell>
+		<cell><![CDATA[Ristorante 1]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Stube]]></cell>
+		<cell><![CDATA[Stube]]></cell>
+		<cell><![CDATA[Stube]]></cell>
+		<cell><![CDATA[Stube]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Wohn- / Schlafraum]]></cell>
+		<cell><![CDATA[Living- / Bedroom]]></cell>
+		<cell><![CDATA[Séjour / chambre ŕ coucher]]></cell>
+		<cell><![CDATA[Soggiorno / camera]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Zimmer und Suiten]]></cell>
+		<cell><![CDATA[Rooms & Suites]]></cell>
+		<cell><![CDATA[Chambres & Suites]]></cell>
+		<cell><![CDATA[Camere & Suites]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Familien Suite]]></cell>
+		<cell><![CDATA[Family suite]]></cell>
+		<cell><![CDATA[Suite familiale]]></cell>
+		<cell><![CDATA[Suite Famiglia]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Wohnzimmer]]></cell>
+		<cell><![CDATA[Living room]]></cell>
+		<cell><![CDATA[Salle de séjour]]></cell>
+		<cell><![CDATA[Soggiorno]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Schlafzimmer]]></cell>
+		<cell><![CDATA[Bedroom]]></cell>
+		<cell><![CDATA[Chambres ŕ coucher]]></cell>
+		<cell><![CDATA[Camera da letto]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Familienzimmer]]></cell>
+		<cell><![CDATA[Family room]]></cell>
+		<cell><![CDATA[Chambre familiale]]></cell>
+		<cell><![CDATA[Camera Famiglia]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Kinderzimmer]]></cell>
+		<cell><![CDATA[ children room]]></cell>
+		<cell><![CDATA[chambre d'enfants ]]></cell>
+		<cell><![CDATA[cameretta per bambini]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Doppelzimmer Komfort]]></cell>
+		<cell><![CDATA[Double room - Comfort]]></cell>
+		<cell><![CDATA[Chambre double - confort]]></cell>
+		<cell><![CDATA[Camera doppia - Comfort]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Rezeption]]></cell>
+		<cell><![CDATA[Reception]]></cell>
+		<cell><![CDATA[Réception]]></cell>
+		<cell><![CDATA[Reception]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Hotel Serfauserhof]]></cell>
+		<cell><![CDATA[Hotel Serfauserhof]]></cell>
+		<cell><![CDATA[Hotel Serfauserhof]]></cell>
+		<cell><![CDATA[Hotel Serfauserhof]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Juniorsuite]]></cell>
+		<cell><![CDATA[Junior Suite]]></cell>
+		<cell><![CDATA[Suite Junior]]></cell>
+		<cell><![CDATA[Suite Junior]]></cell>
+	</row>
+	<row>
+		<cell><![CDATA[Hallenbad]]></cell>
+		<cell><![CDATA[Indoor pool]]></cell>
+		<cell><![CDATA[Piscine]]></cell>
+		<cell><![CDATA[Piscina]]></cell>
+	</row>
+</data>

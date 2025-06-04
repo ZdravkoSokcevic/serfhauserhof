@@ -1,0 +1,283 @@
+﻿FALLBACK;TRANSLATION
+forgot-password;
+forgot-password-error;
+forgot-password-success;
+register-error;
+register-success;
+"-- Please select room --";"--  Bitte wählen Sie ein Zimmer  --"
+"-- Please select --";"-- Bitte wählen --"
+"-- Please select package --";"-- Bitte wählen Sie ein Paket --"
+"%s adults";"%s Erwachsene"
+"%s adult";"%s Erwachsener"
+"%s child";"%s Kind"
+"%s children";"%s Kinder"
+"%s p.";"%s P."
+"12 noon";"12:00 Uhr"
+"6 pm";"18:00 Uhr"
+360°-Panoramatour;360°-Panoramarundgang
+"6 am";"6:00 Uhr"
+"from € %s";"ab € %s"
+Cancle;Abbrechen
+unsubscribed;abgemeldet
+sent;abgeschickt
+sent-and-not-registered;abgeschickt-und-nicht-registriert
+sent-and-registered;abgeschickt-und-registriert
+sent-and-existing;abgeschickt-und-vorhanden
+unsubscribe-init;abmelde-bestaetigung-gesendet
+unsubscribe-error;abmelde-fehler
+Unsubscribe;Abmelden
+unsubscribe;abmelden
+Departure;Abreise
+Send;Abschicken
+Address;Adresse
+"Terms and conditions";AGB's
+News;Aktuelles
+"Show all categories";"Alle Kategorien anzeigen"
+"Age of children";"Alter der Kinder"
+request;anfragen
+Offer;Angebot
+subscribe-init;anmelde-bestaetigung-gesendet
+subscribe-error;anmelde-fehler
+Subscribe;Anmelden
+Salutation;Anrede
+"Salutation recipient";"Anrede (Empfänger)"
+Arrival;Anreise
+Apr;Apr
+April;April
+"Share via digg";"Auf digg teilen"
+"Share on Facebook";"Auf Facebook teilen"
+"Share on Google+";"Auf Google+ teilen"
+"Share on Twitter";"Auf Twitter teilen"
+Aug;Aug
+August;August
+Education;Ausbildung
+logout;Ausloggen
+"Missing interest";"Auswahl nicht mehr vorhanden"
+"Missing package";"Auswahl nicht mehr vorhanden"
+"Missing room";"Auswahl nicht mehr vorhanden"
+"There was an error activating your registration. Please try it again.";"Beim Aktivieren Ihrer Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+"There was an error removing your registration. Please try it again.";"Beim Entfernen Ihrer Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+"When registering for the newsletter an error occurred!";"Beim registrieren für den Newsletter ist ein Fehler aufgetreten!"
+"When sending your request an error occurred! Please try again.";"Beim Senden Ihrer Anfrage ist ein Fehler aufgetreten! Bitte versuchen Sie es erneut."
+"There was an error saving your registration. Please try it again.";"Beim Speichern Ihrer Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+"Username already exists";"Benutzername existiert bereits"
+Image;Bilder
+"Please select a salutation";"Bitte Anrede auswählen"
+"Please enter the children age";"Bitte geben Sie das Alter des Kindes an"
+"Please enter the time in the following format: 08:45";"Bitte geben Sie die Uhrzeit in folgenden Format an: 08:45"
+"Please select the number of persons";"Bitte wählen Sie die Anzahl der Personen"
+"Please select an arrival and departure date";"Bitte wählen Sie ein Anreise- und Abreisedatum"
+Book;Buchen
+book;Buchen
+booking;buchen
+"Booking hotline";Buchungshotline
+"The childage is required";"Das Kinderalter  wird benötigt"
+"Your password must be between %s and %s characters long";"Das Passwort muss zwischen %s und %s Buchstaben lang sein"
+"File not found!";"Datei nicht gefunden!"
+"Privacy policy";Datenschutz
+Date;Datum
+Duration;Dauer
+"Your username must be between %s and %s characters long";"Der Benutzername muss zwischen %s und &s Buchstaben lang sein."
+"A birthday is required";"Der Geburtstag ist erfoderlich"
+Details;Details
+Dec;Dez
+December;Dezember
+Tue;Di
+"The number of adults is required";"Die Anzahl der Erwachsenen ist erforderlich"
+"A citizenship is required";"Die Stattsberügerschaft ist erforderlich"
+Tuesday;Dienstag
+"This e-mail address is already registered for the newsletter.";"Diese E-Mail Adresse ist bereits für den Newsletter registriert."
+"This website uses Cookies. <br />Click <a href=""%s"">here</a> for more information.";"Diese Webseite verwendet Cookies. <br />Klicken Sie <a href=""%s"">hier</a> für weitere Informationen."
+"This offer is not available in the selected period";"Dieses Angebot ist im ausgewählten Zeitraum nicht verfügbar"
+Thu;Do
+Thursday;Donnerstag
+Print;Drucken
+E-Mail;E-Mail
+"Email address already registered";"E-Mail Adresse ist bereits registriert"
+"Email address not registered";"E-Mail Adresse ist nicht registriert"
+"An offer is required";"Ein Angebot  wird benötigt"
+"An arrival date is required";"Ein Anreisedatum ist erforderlich"
+"An username is required";"Ein Benutzername wird benötigt"
+"A date is required";"Ein Datum ist erforlderlich"
+"A country is required";"Ein Land ist erforderlich"
+"A lastname is required";"Ein Nachname ist erforderlich"
+"A name is required";"Ein Name ist erforderlich"
+"A city is required";"Ein Ort ist erforderlich"
+"A password is required";"Ein Passwort wird benötigt"
+"A type is required";"Ein Typ ist erforderlich"
+"A firstname is required";"Ein Vorname ist erforderlich"
+"A value is required";"Ein Wert ist erforderlich"
+"A period is required";"Ein Zeitraum ist erforderlich"
+"A room is required";"Ein Zimmer wird benötigt"
+Insights;Einblicke
+"A departure date is required";"Eine Abreisedatum ist erforderlich"
+"An address is required";"Eine Adresse ist erforderlich"
+"An email address is required";"Eine E-Mail Adresse ist erforderlich"
+"A valid email address is required";"Eine gültige E-Mail-Addresse wird benötigt"
+"A message is required";"Eine Nachricht ist erforderlich"
+"A zip code is required";"Eine PLZ ist erforderlich"
+"A job is required";"Eine Stelle ist erforderlich"
+"An phone number is required";"Eine Telefonnummer ist erforderlich"
+"A phone number is required";"Eine Telefonnummer wird benötigt"
+"A time is required";"Eine Uhrzeit ist erforderlich"
+Adults;Erwachsene
+"There was an error resetting your password. Please try it again.";"Es gab einen Fehler beim zurücksetzen des Passwortes. Bitte versuchen Sie es erneut."
+"Incorrect answer";"Falsche Antwort"
+"Invalid username or password";"Falscher Benutzername oder falsches Passwort"
+Feb;Feb
+February;Februar
+failed;fehlgeschlagen
+Fri;Fr
+Friday;Freitag
+"for Serfaus";"für Serfaus"
+Gallery;Galerie
+Birthday;Geburtstag
+Voucher;Gutschein
+Vouchers;Gutscheine
+"Coupon type";Gutscheintyp
+"Header image";Headerbild
+"Your request has been successfully sent.";"Ihre Anfrage wurde erfolgreich gesendet."
+"Your message must be at least %s characters long";"Ihre Nachricht sollte mindestens %s Zeichen lang sein"
+"Your registration has been successfully activated!";"Ihre Registrierung wurde erfolgreich aktiviert!"
+"Your registration has been successfully removed!";"Ihre Registrierung wurde erfolgreich gelöscht!"
+"at the age of %s";"im Alter von %s"
+"at the ages of %s";"im Alter von %s"
+Imprint;Impressum
+"in a room";"in einem Zimmer"
+"Info about education is required";"Information über Ihre Ausbildung ist erforderlich"
+"Languages are required";"Information, über die Sprachen die Sie sprechen, ist erforderlich"
+"included services";Inklusivleistungen
+Interests;Interessen
+Yes;Ja
+"Yes, I want to recive a newsletter.";"Ja, ich will mich für den Newsletter anmelden."
+Jan;Jan
+January;Jänner
+now;jetzt
+"Apply now";"Jetzt bewerben"
+Jobs;Jobs
+Jul;Jul
+July;Juli
+Jun;Jun
+June;Juni
+Map;Karte
+"No offers available";"Keine Angebote verfügbar"
+"No jobs available";"Keine Jobs verfügbar"
+"No categories available!";"Keine Kategorien vorhanden!"
+"No pages with the term ""%s"" found!";"Keine Seiten mit dem Suchbegriff ""%s"" gefunden!"
+Children;Kinder
+childage;Kinderalter
+"children prices";Kinderpreise
+Comment;Kommentar
+Contact;Kontakt
+Country;Land
+May;Mai
+Mar;Mär
+March;März
+Max;Max
+more;mehr
+"more information";"mehr Information"
+Menu;Menü
+Wed;Mi
+Min;Min
+"At least one option is required";"Mindestens eine Option ist erforderlich"
+"Fields marked with * must be entered.";"Mit * gekennzeichnete Felder müssen ausgefüllt werden."
+"with the package ""%s""";"mit dem Paket ""%s"""
+Wednesday;Mittwoch
+Mon;Mon
+Monday;Montag
+Lastname;Nachname
+"Lastname recipient";"Nachname (Empfänger)"
+Message;Nachricht
+Name;Name
+No;Nein
+Newsletter;Newsletter
+Nov;Nov
+November;November
+"Opening hours";Öffnungszeiten
+Oct;Okt
+October;Oktober
+"Option 1: Holiday";"Option 1: Urlaub"
+"Option 2: Voucher";"Option 2: Wertgutschein"
+City;Ort
+Package;Pauschale
+Packages;Pauschalen
+ZIP;PLZ
+"Price for %s person";"Preis bei %s Person"
+"Price for %s persons";"Preis bei %s Personen"
+"Price for*";"Preis bei*"
+Press;Presse
+Brochures;Prospekte
+References;Referenzen
+"References are required";"Referenzen sind erforderlich"
+register;registrieren
+"Route could not be calculated! Please check your entry and try again!";"Route konnte nicht berechnet werden! Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut!"
+Sat;Sa
+Saturday;Samstag
+"Take a look around!";"Schauen Sie sich um!"
+close;schließen
+Page;Seite
+Sep;Sep
+September;September
+Shortstay;Shortstay
+"You will soon receive an e-mail to confirm your access data change.";"Sie erhalten in Kürze ein E-Mail um Ihre Änderungen zu bestätigen."
+"You will soon receive an e-mail to confirm your registration.";"Sie erhalten in Kürze ein E-Mail um Ihre Registrierung zu bestätigen."
+"You will receive a confirmation email to sign up for the newsletter.";"Sie erhalten in Kürze eine E-Mail um Ihre Anmeldung zu bestätigen."
+"You successfully logged out.";"Sie haben Sich erfolgreich ausgelogged"
+Sitemap;Sitemap
+Summer;Sommer
+Sun;Son
+Sunday;Sonntag
+"Spam protection";Spamschutz
+Languages;Sprachen
+Citizenship;Staatsbürgerschaft
+Start;Start
+Position;Stelle
+Search;Suche
+"Day price";Tagespreis
+Phone;Telefon
+Title;Titel
+"Title recipient";"Titel (Empfänger)"
+"Top offers";"Top Angebote"
+"Top gift idea";Top-Geschenkidee
+Tour;Tour
+Time;Uhrzeit
+and;und
+"Invalid number";"Ungültige Nummer"
+Non-binding;Unverbindlich
+"Copy url to clipboard";"Url in Zwischenablage kopieren"
+"Give holiday happiness";"Urlaubsglück schenken"
+"Seductively beautiful ...";"Verführerisch schön ..."
+"Roger that";Verstanden
+"Share via Mail";"Via E-Mail teilen"
+"Share via LinkedIn";"Via Linkedin teilen"
+"Share via Pinterest";"Via Pinterest teilen"
+"Share via Reddit";"Via Reddit teilen"
+"Share via Stumbleupon";"Via Stumbleupon teilen"
+"Share via Tumblr";"Via Tumblr teilen"
+"Share via Vkontakte";"Via VKontakte teilen"
+"Share via Whatsapp";"Via Whatsapp teilen"
+"Share via Xing";"Via Xing teilen"
+Videos;Videos
+"Videos to dream";"Videos zum Träumen"
+"Virtual journey";"Virtuelle Reise"
+Previous;Vorherige
+Firstname;Vorname
+"Firstname recipient";"Vorname (Empfänger)"
+"Wellness & Beauty";"Wellness & Beauty"
+"Show less categories";"Weniger Kategorien anzeigen"
+Value;Wert
+Weather;Wetter
+"Weather from";"Wetter von"
+"Weather forecast";Wettervorhersage
+Winter;Winter
+Period;Zeitraum
+Room;Zimmer
+Rooms;Zimmer
+"remove room";"Zimmer entfernen"
+"add room";"Zimmer hinzufügrn"
+"Room category";Zimmerkategorie
+"Show reviews";"zu den Bewertungen"
+"show offer";"zum Angebot"
+"Best price";"Zum Bestpreis"
+Back;Zurück
+"Back to overview";"Zurück zur Übersicht"

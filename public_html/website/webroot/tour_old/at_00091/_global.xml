@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<global version="3.10.0">
+	<!--SOUND-->
+	<plugin name="soundinterface" url="%SWFPATH%/soundinterface.{EXTENSION}" volume="1.0" mute="false" preload="false" onloaded="js(soundinterfaceloaded())"/>
+
+	<!--FOV-->
+	<view fovmin="60" fovmax="120" limitview="range"/>
+	<!--QUALITY SETTINGS-->
+	<display fps="60" movequality="low" stillquality="low" flash10="on"/>
+	<!--PROGRESS-BAR-->
+	<progress showwait="false" showreloads="false"/>
+	<!--HOTSPOT-STYLE-->
+	<style name="normalHotspot" dragging=""/>
+	<textstyle name="DEFAULT" fontsize="12" bold="false" border="false" background="false" textshadow="0.01"/>
+	<data name="captionStyle"></data>
+	<!--CONTROL-->
+	<control usercontrol="mouse" mousefovchange="0" mouse="moveto" touchzoom="true"/>
+	<!--CONTEXTMENU-->
+	<contextmenu customstyle="" fullscreen="false" native="false" touch="false" versioninfo="false">
+		<item caption="Copyright diginetmedia 2017" enabled="true" name="copyright" onclick="openurl(http://www.diginetmedia.de);" separator="false" showif="" visible="true"/>
+	</contextmenu>
+</global>

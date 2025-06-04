@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.1.8">
+
+	<message
+		home				= "Carica Panorama..."
+		rotation_on			= "Inizia rotazione..."
+		rotation_off		= "Ferma rotazione..."
+		slideshow_on		= "Inizia Slideshow..."
+		slideshow_off		= "Ferma Slideshow..."
+		sound_on			= "Ascoltare musica..."
+		sound_off			= "Spegnere musica..."
+		map_on				= "Mostra Google Maps..."
+		map_off				= "Abbassa Google Maps..."
+		groundplan_on		= "Mostra pianta principale..."
+		groundplan_off		= "Abbassa pianta principale..."
+		groundplaninfo_on	= "Mostra informazione..."
+		groundplaninfo_off	= "Abbassa informazione..."
+		weather_on			= "Mostra Meteo..."
+		weather_off			= "Abbassa Meteo..."
+		sitemap_on			= "Mostra Sitemap..."
+		sitemap_off			= "Abbassa Sitemap..."
+		help_on				= "Mostra assistenza..."
+		help_off			= "Abbassa assistenza..."
+		guidedtour_on		= "Inizia tour guidata..."
+		guidedtour_off		= "Termina tour guidata..."
+        webvr_on   			= "Avvia la versione Virtual Reality..."
+        webvr_off   		= "Interrompe la versione Virtual Reality..."
+		gyroscope_on		= "Controllo giroscopio attivato..."
+		gyroscope_off		= "Controllo di giroscopio disattivato..."
+        info_on		        = "Infos shown..."
+        info_off	    	= "Infos hidden..."
+		/>
+	<message_hover
+		home				= "Carica Panorama"
+		home_online			= "Mostra sito web"
+		rotation_on			= "Inizia rotazione"
+		rotation_off		= "Ferma rotazione"
+		slideshow_on		= "Inizia la slideshow"
+		slideshow_off		= "Ferma Slideshow"
+		sound_on			= "Ascolta la musica"
+		sound_off			= "Spegni la musica"
+		map_on				= "Mostra Google Maps"
+		map_off				= "Abbassa Google Maps"
+		groundplan_on		= "Mostra pianta principale"
+		groundplan_off		= "Abbassa pianta principale"
+		groundplaninfo_on	= "Mostra informazione"
+		groundplaninfo_off	= "Abbassa informazione"
+		weather_on			= "Mostra Meteo"
+		weather_off			= "Abbassa Meteo"
+		sitemap_on			= "Mostra Sitemap"
+		sitemap_off			= "Abbassa Sitemap"
+		help_on				= "Mostra assistenza"
+		help_off			= "Abbassa assistenza"
+		toggle				= "Abbassa menu"
+		fullscreen_on		= "Mostra a schermo intero"
+		fullscreen_off		= "Chiudi lo schermo intero"
+		facebook			= "Mostra profilo Facebook"
+		facebook-share		= "Condividi su Facebook"
+        google			    = "Mostra profilo Google+"
+        google-share		= "Condividi su Google+"
+		whatsapp    		= "Condividi su Whatsapp"
+        twitter				= "Aperto Twitter-Profile"
+        twitter-share		= "Tweet su Twitter"
+		book				= "Prenota una camera"
+		guidedtour_on		= "Inizia tour guidata"
+		guidedtour_off		= "Termina tour guidata"
+        webvr_on   			= "Inizia versione Virtual Reality"
+        webvr_off   		= "Termina versione Virtual Reality"
+		gyroscope_on		= "Attivare il controllo di giroscopio"
+		gyroscope_off		= "Disattivare il controllo del giroscopio"
+        info_on		        = "Show Infos"
+        info_off	    	= "Hide Infos"
+		/>
+	<error
+		fatal				= "La Tour virtuale 360° non carica. Si prega di controllare, se è collegato con Internet e riprovare. Se si contiuna a non scaricare, si prega di contattare l'Hotel Granvara."
+		fullscreen			= "Prego fermare fullscreen"
+		stopVideo			= "Prego fermare video"
+		weatherUnavailable	= "Dati meteo non disponibile..."
+	/>
+	<days
+		now					= "Adesso"
+		today				= "Oggi"
+		monday				= "Lunedì"
+		tuesday				= "Martedì"
+		wednesday			= "Mercoledì"
+		thursday			= "Giovedì"
+		friday				= "Venerdì"
+		saturday			= "Sabato"
+		sunday				= "Domenica"
+	/>
+	<email
+		subject				= "Contatto presso tour virtuale 360°"
+		body				= "Buongiorno"
+	/>
+	<interface
+		back				= "indietro"
+		back-to             = "Back to"
+        menu-button         = "Menu"
+        creator             = "fotografo"
+        disclaimer 			= "L'immagini e indicazioni sono solo esempi."
+        guided-tour-selector = "Tour guidato"
+    />
+	<help
+		toggle				= "Aprire menu / chiudere menu"
+		fullscreen			= "Schermo normale / fullscreen"
+		home				= "Riaprire tour virtuale"
+		slideshow			= "Panorama- Slideshow iniziare / fermare"
+		sound				= "Sound accendere / spegnere"
+		rotation			= "Panorama- Rotazione iniziare / fermare"
+		groundplan			= "Piantina principale per il panorama attuale aprire / chiudere"
+		map					= "Google Maps aprire / chiudere"
+		weather				= "Meteo aprire / chiudere"
+		sitemap				= "Sitemap aprire / chiudere"
+        guidedtour          = "Iniziare il tour guidato"
+		email				= "Mandare E-Mail"
+		info				= "Contatti aprire /chiudere"
+        facebook			= "Mostra profilo Facebook"
+        facebook-share		= "Condividi su Facebook"
+        google			    = "Mostra profilo Google+"
+        google-share		= "Condividi su Google+"
+        whatsapp    		= "Condividi su Whatsapp"
+        twitter				= "Aperto Twitter-Profile"
+        twitter-share		= "Tweet su Twitter"
+		book				= "Prenotare hotel / camera"
+        webvr   			= "Inizia/Termina versione Virtual Reality"
+		gyroscope		    = "Attiva/Disattiva controllo giroscopio"
+		other				= "Nel menu principale si puo navigare tra le rubriche oppure cliccare l'immagine. Cliccando sull'immagine si apre un nuovo panorama."
+	/>
+	<privacy
+		name				= "Privacy"
+		text				= "Su questo sito web la Ditta Etracker Gmbh registra i dati per motivi di analisi. Con questi dati l'user non viene indentificato."
+		disable				= "Disattivare Tracking"
+	/>
+	<explanation_click
+		caption				= "regolare il panorama"
+		move				= "girare panorama: tenere cliccato il tasto sinistro del mouse e ruotare"
+		zoom				= "Panorama- Zoom: scrollare"
+	/>
+	<explanation_touch
+		caption				= "regolare panorama"
+		move				= "girare panorama: premere l'immagine e girare a sinistra o destra"
+		zoom				= "Panorama-Zoom: Premere pollice e indice insieme o lontano"
+	/>
+    <webvrsettings
+        title               =   "Scegliere gli vr-occhiali."
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+    <sharing
+        twitter         = "Guarda questo tour virtuale"
+        whatsapp         = "Guarda questo tour virtuale"
+    />
+
+</language>

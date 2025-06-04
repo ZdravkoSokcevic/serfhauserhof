@@ -1,0 +1,2117 @@
+
+/* init */
+
+html {
+    height: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f6f6f6 url("/backend/img/bg-body.gif") repeat-y scroll left top;
+    color: #555;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    height: 100%;
+}
+
+body.minimal {
+    background: #222 url("/backend/img/bg-minimal.gif") repeat scroll 0 0;
+}
+
+body.print {
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i, span.italic {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+}
+
+h1, span.logo {
+    font-family: Calibri,Helvetica,Arial,sans-serif;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    display: block;
+}
+
+h1 > span {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+body.minimal h1,
+span.logo {
+    color: #cccccc;
+    text-shadow: 0 0 2px #ddd;
+}
+
+body.print h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body.print h2 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding: 20px 10px 5px 10px;
+}
+
+a {
+    color: #57a000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+small {
+    font-size: 0.85rem;
+}
+
+div, input, aside, footer, section {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+div.loading {
+    background-color: #FFFFFF;
+    border-color: #dddddd;
+    border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    border-style: solid;
+    border-width: 0 0 1px 1px;
+    box-shadow: 0 0 2px #cccccc;
+    -moz-box-shadow: 0 0 2px #cccccc;
+    -webkit-box-shadow: 0 0 2px #cccccc;
+    line-height: 20px;
+    padding: 2px 5px 2px 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1010;
+    display: none;
+}
+
+div.loading i {
+    font-size: 1.3rem;
+}
+
+div.main {
+    background: #f6f6f6 none repeat scroll 0 0;
+    left: 0;
+    margin: 0 0 0 230px;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+body.minimal div.main {
+    background: transparent url("/backend/img/bg-minimal-top.png") repeat-x scroll left top;
+    margin: 0;
+}
+
+/* button */
+
+.button {
+    cursor: pointer;
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #DDDDDD;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;;
+    overflow: hidden;
+    padding: 0 5px;
+    color: #555555;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.button * {
+    color: #555555;
+}
+
+.button:hover {
+    box-shadow: 1px 2px 2px #E9E9E9;
+    -moz-box-shadow: 1px 2px 2px #E9E9E9;
+    -webkit-box-shadow: 1px 2px 2px #E9E9E9;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #777777;
+}
+
+.button.active {
+    background: #cccccc none repeat scroll 0 0;
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 1px #888888 inset;
+    -moz-box-shadow: 1px 1px 1px #888888 inset;
+    -webkit-box-shadow: 1px 1px 1px #888888 inset;
+    color: #ffffff;
+}
+
+.button.inactive,
+.button.inactive:hover {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: #f6f6f6;
+    color: #dddddd;
+}
+
+.button * {
+    color: inherit;
+}
+
+/* icons */
+
+.action-button,
+.icon {
+    margin-right: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    color: #555555;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.icon.inactive {
+    border-color: #dddddd;
+    color: #dddddd;
+}
+
+.icon.ignore {
+    visibility: hidden;
+}
+
+.icon.missing {
+    border-color: #dddddd;
+    color: #dddddd;
+}
+
+.icon.sort i {
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+}
+
+nav div.left .action-button,
+nav div.right .action-button,
+nav div.left .icon,
+nav div.right .icon {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+nav div.left .action-button,
+nav div.right .action-button {
+    width: auto;
+    margin-left: 5px;
+}
+
+nav div.left .action-button > i,
+nav div.right .action-button > i,
+nav div.left .action-button > div.action,
+nav div.right .action-button > div.action {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+}
+
+nav div.left .action-button > i,
+nav div.right .action-button > i {
+    padding: 0 4px;
+}
+
+nav div.left .action-button > div.action select,
+nav div.right .action-button > div.action select,
+nav div.left .action-button > div.action input,
+nav div.right .action-button > div.action input {
+    background: none;
+}
+
+nav div.left .action-button > a.submit,
+nav div.right .action-button > a.submit {
+    width: 30px;
+    margin-left: 5px;
+}
+
+nav div.left .action-button > div.action,
+nav div.right .action-button > div.action,
+nav div.left .action-button > a.submit,
+nav div.right .action-button > a.submit {
+    display: none;
+    font-size: 1rem;
+}
+
+nav div.left .action-button.show div.action,
+nav div.right .action-button.show div.action,
+nav div.left .action-button.show > a.submit,
+nav div.right .action-button.show > a.submit {
+    display: block;
+}
+
+nav div.left .action-button > div.action select,
+nav div.right .action-button > div.action select,
+nav div.left .action-button > div.action input,
+nav div.right .action-button > div.action input,
+nav div.left .action-button > a.submit,
+nav div.right .action-button > a.submit {
+    border: none;
+    height: 28px;
+    line-height: 28px;
+}
+
+nav div.left .action-button > div.action select,
+nav div.right .action-button > div.action select,
+nav div.left .action-button > div.action input,
+nav div.right .action-button > div.action input {
+    width: 100px;
+}
+
+nav div.left .action-button > div.action a.button,
+nav div.right .action-button > div.action a.button {
+    background-color: #DEFFB7;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+nav div.left .action-button > div.action input[type="file"],
+nav div.right .action-button > div.action input[type="file"] {
+    padding: 0;
+    width: auto;
+}
+
+nav div.left .action-button > div.action select.space,
+nav div.right .action-button > div.action select.space,
+nav div.left .action-button > div.action input.space,
+nav div.right .action-button > div.action input.space,
+nav div.left .action-button > div.action a.space,
+nav div.right .action-button > div.action a.space {
+    margin-left: 5px;
+}
+
+nav div.left .icon:hover,
+nav div.right .icon:hover {
+    box-shadow: 1px 2px 2px #E9E9E9;
+    -moz-box-shadow: 1px 2px 2px #E9E9E9;
+    -webkit-box-shadow: 1px 2px 2px #E9E9E9;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #777777;
+}
+
+nav div.left .icon.active,
+nav div.right .icon.active {
+    background-color: #DBDBDB;
+}
+
+/* flags */
+
+.flag {
+    margin: 5px;
+    position: relative;
+    display: block;
+    float: left;
+    width: 26px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.input-flag {
+    background-repeat: no-repeat;
+    background-position: left 5px center;
+    padding-left: 35px;
+}
+
+.flag > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.flag.inactive > div {
+    background-color: rgba(255,255,255,0.6);
+}
+
+.flag.de,
+.input-flag.de {
+    background-image: url("/backend/img/flags/Germany.png");
+}
+
+.flag.en,
+.input-flag.en {
+    background-image: url("/backend/img/flags/United Kingdom(Great Britain).png");
+}
+
+.flag.it,
+.input-flag.it {
+    background-image: url("/backend/img/flags/Italy.png");
+}
+
+.flag.fr,
+.input-flag.fr {
+    background-image: url("/backend/img/flags/France.png");
+}
+
+.flag.ru,
+.input-flag.ru {
+    background-image: url("/backend/img/flags/Russian Federation.png");
+}
+
+.flag.nl,
+.input-flag.nl {
+    background-image: url("/backend/img/flags/Netherlands.png");
+}
+
+.flag-dummy {
+    float: left;
+    height: 26px;
+}
+
+/* misc */
+
+.space-top {
+    margin-top: 20px;
+}
+
+.space-bottom {
+    margin-bottom: 20px;
+}
+
+/* login */
+
+body.minimal section.main-content {
+    width: 230px;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 145px auto 0 auto;
+}
+
+body.minimal h1 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+body.minimal section.main-content input,
+body.minimal section.main-content button {
+    clear: both;
+    float: none;
+    width: 230px;
+    margin-top: 15px;
+}
+
+/* sidebar */
+
+aside {
+    background: transparent url("/backend/img/bg-sidebar.gif") repeat-x scroll left top;
+    color: #888;
+    font-size: 0.9rem;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 230px;
+}
+
+aside a, aside a:active {
+    color: #ccc;
+}
+
+aside > div {
+    margin: 0 0 0 9px;
+}
+
+aside > div > span.logo {
+    margin: 40px 0;
+    text-align: center;
+}
+
+aside > div > div.profile {
+    line-height: 1.5em;
+    padding: 0 15px 20px;
+    text-align: right;
+}
+
+aside > div > ul {
+    background: #f0f0f0 url("/backend/img/bg-body.gif") repeat-y scroll -9px 0;
+    margin: 0 0 70px 15px;
+    padding: 0;
+    position: relative;
+    width: 206px;
+    z-index: 10;
+}
+
+aside > div > ul > li {
+    list-style: outside none none;
+    padding: 0 0 10px;
+    text-align: right;
+}
+
+aside > div > ul > li > a,
+aside > div > ul > li > a:visited,
+aside > div > ul > li > a:link,
+aside > div > ul > li > a:active {
+    background: transparent url("/backend/img/bg-menu-item-green.gif") no-repeat scroll right center;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+aside > div > ul > li > a.current {
+    background-image: url("/backend/img/bg-menu-item-current.gif") !important;
+    color: #333;
+    font-weight: bold;
+}
+
+aside > div > ul > li > ul > li {
+    font-size: 1rem;
+    padding: 0;
+    list-style: outside none none;
+    text-align: right;
+}
+
+aside > div > ul > li > ul > li > a {
+    color: #aaa;
+    display: block;
+    line-height: 1.2rem;
+    padding: 8px 15px;
+}
+
+aside > div > ul > li > ul > li > a:hover,
+aside > div > ul > li > ul > li > a.current {
+    color: #FFFFFF;
+}
+
+aside > div > ul > li > ul > li > a.current {
+    font-weight: bold;
+    background: transparent url("/backend/img/menu-current-arrow.gif") no-repeat scroll right center;
+}
+
+/* menu */
+
+nav {
+    z-index: 1000;
+    background-color: #F6F6F6;
+    position: fixed;
+    width: calc(100% - 230px);
+}
+
+nav > div {
+    padding: 15px;
+}
+
+nav > div > div {
+    padding: 10px 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+nav div.left {
+    float: left;
+}
+
+nav div.right {
+    float: right;
+}
+
+nav div.left > a,
+nav div.right > a,
+nav div.left > select,
+nav div.right > select {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* content */
+
+.main-content {
+    margin-top: 100px;
+    margin-bottom: 71px;
+    padding: 15px;
+    position: relative;
+}
+
+.main.no-menu-actions > .main-content {
+    margin-top: 70px;
+}
+
+/* message */
+
+div.message {
+    padding: 15px;
+    background-color: #141414;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+body.prices-update div.message {
+    position: absolute;
+    width: 98%;
+    z-index: 10;
+}
+
+div.message ul {
+    padding: 5px 0 0 0;
+}
+
+div.message ul li {
+    text-align: left;
+    list-style: square none inside;
+}
+
+div.message.caution {
+    background-color: #57a000;
+}
+
+div.message a.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* dashboard */
+
+.shortcut {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #555555;
+    display: block;
+    float: left;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+}
+
+.shortcut > i {
+    display: block;
+    font-size: 50px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.shortcut > span {
+    bottom: 25px;
+    display: block;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: calc(100% - 10px);
+}
+
+/* upload */
+
+#htmluploadzone {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main-content .progress {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    float: none;
+    clear: both;
+    display: none;
+}
+
+.main-content .progress .info {
+    padding-bottom: 10px;
+}
+
+.main-content .progress .info > div#filename {
+    float: left;
+    font-weight: bold;
+}
+
+.main-content .progress .info > div#percentage {
+    float: right;
+}
+
+.main-content .progress .bar {
+    text-align: left;
+    font-weight: bold;
+    background-color: #57a000;
+    color: #FFFFFF;
+    width: 0%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    height: 5px;
+    overflow: hidden;
+}
+
+form.dropzone .dz-preview {
+    display: none;
+}
+
+/* structures */
+
+div.structures.tree {
+    
+}
+
+div.structures.tree table#tree {
+    width: 100%;
+}
+
+div.structures.tree table#tree tbody tr:hover,
+div.structures.tree table#tree tr.fancytree-active {
+    background-color: #FFFFFF;
+}
+
+div.structures.tree table#tree th {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+
+div.structures.tree table#tree th.actions.actions-2 {
+    width: 72px;
+}
+
+div.structures.tree table#tree th.actions.actions-3 {
+    width: 103px;
+}
+
+div.structures.tree table#tree th.actions.actions-4 {
+    width: 134px;
+}
+
+div.structures.tree table#tree th.actions.actions-5 {
+    width: 165px;
+}
+
+div.structures.tree table#tree th.actions.actions-6 {
+    width: 196px;
+}
+
+div.structures.tree table#tree th.actions.actions-7 {
+    width: 227px;
+}
+
+div.structures.tree table#tree th.actions.actions-8 {
+    width: 258px;
+}
+
+div.structures.tree table#tree th.actions.actions-9 {
+    width: 289px;
+}
+
+div.structures.tree table#tree th.actions.actions-10 {
+    width: 320px;
+}
+
+.fancytree-drag-helper,
+div.structures.tree table#tree td {
+    padding: 5px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+div.structures.tree table#tree td span.fancytree-title {
+    padding: 0;
+    margin: 0;
+}
+
+div.structures.tree table#tree td span.fancytree-title > span {
+    font-size: 50%;
+}
+
+div.structures.tree table#tree td div.actions .icon {
+    font-size: 1rem;
+}
+
+/* images */
+
+section.main-content .images.list .item {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+}
+
+section.main-content .images.list .item.selected {
+    background-color: #D3F9A4;
+    border-color: #57a000;
+}
+
+section.main-content .images.list .item.folder > i {
+    text-align: center;
+    display: block;
+    font-size: 100px;
+    line-height: 300px;
+}
+
+section.main-content .images.list .item.folder > span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+section.main-content .images.list .item.image > div.title {
+    color: #57a000;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+section.main-content .images.list .item.image > div.title > div.actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-align: right;
+    z-index: 10;
+}
+
+section.main-content .images.list .item.image > div.title > div.actions a {
+    text-decoration: none;
+    color: #555555;
+}
+
+section.main-content .images.list .item.image > div.title > div.actions a:hover {
+    color: #57a000;
+}
+
+section.main-content .images.list .item.image > div.title > div.actions a > i {
+    font-size: 1rem;
+}
+
+section.main-content .images.list .item.image > div.title input {
+    padding: 0;
+    margin: 1px 4px 0 0;
+    height: auto;
+    line-height: auto;
+}
+
+section.main-content .images.list .item.image > span {
+    display: block;
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+section.main-content .images.list .item.image div.preview {
+    width: 100%;
+    height: 220px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section.main-content .images.list .item.image .translations,
+section.main-content .images.list .item.image .information,
+section.main-content .images.list .item.image .rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(255,255,255,0.9);
+    padding: 5px;
+}
+
+section.main-content .images.list .item.image .translations > span,
+section.main-content .images.list .item.image .information > span,
+section.main-content .images.list .item.image .rotate > span {
+    color: #57a000;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+section.main-content .images.list .item.image .translations.show,
+section.main-content .images.list .item.image .information.show,
+section.main-content .images.list .item.image .rotate.show {
+    display: block;
+}
+
+section.main-content .images.list .item.image .translations form,
+section.main-content .images.list .item.image .rotate form {
+    padding-top: 0;
+}
+
+section.main-content .images.list .item.image .rotate form .message {
+    margin-top: 8px
+}
+
+section.main-content .images.list .item.image .rotate form select {
+    width: 100%;
+}
+
+section.main-content .images.list .item.image .translations form input.flag {
+    background-position: 6px center;
+    background-size: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    clear: both;
+    float: none;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0 0 0;
+    padding: 0 6px 0 35px;
+    width: 100%;
+}
+
+section.main-content .images.list .item.image .translations form a.submit,
+section.main-content .images.list .item.image .rotate form .submit {
+    margin-top: 10px;
+    float: left;
+    width: 135px;
+    text-align: center;
+}
+
+section.main-content .images.list .item.image .translations form a.submit.cancel,
+section.main-content .images.list .item.image .rotate form .submit.cancel {
+    float: right;
+}
+
+section.main-content .images.list .item.image .information ul {
+    padding: 5px;
+}
+
+section.main-content .images.list .item.image .information ul li {
+    padding: 5px;
+}
+
+section.main-content .images.list .item.image .information ul li span.purpose {
+    font-weight: bold;
+}
+
+section.main-content .images.list .item.image .information ul li.cropped i,
+section.main-content .images.list .item.image .information ul li.cropped span.purpose {
+    color: #57a000;
+}
+
+section.main-content .images.list .item.image .information ul li.recrop i,
+section.main-content .images.list .item.image .information ul li.recrop span.purpose {
+    color: #DB0300;
+}
+
+section.main-content .images.list .item.image .information ul li span.time {
+    float: right;
+}
+
+section.main-content .images.list .item.image .information .category {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+section.main-content .images.list .item.image .information .category span.value {
+    color: #57a000;
+    float: right;
+}
+
+section.main-content .images.list .item.image .information .category span.value.long {
+    clear: both;
+    display: block;
+    float: none;
+}
+
+/* crop */
+
+section.main-content .images.crop fieldset.infos > div > span {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+section.main-content .images.crop div.checkbox {
+    line-height: 30px;
+    margin: 0;
+    float: left;
+    width: 25%;
+}
+
+section.main-content .images.crop div.checkbox input {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    margin: 8px 8px 0 0;
+}
+
+section.main-content .images.crop div.checkbox a {
+    float: left;
+    margin-right: 5px;
+    color: #555555;
+}
+
+section.main-content .images.crop div.checkbox label {
+    float: left;
+    width: auto;
+}
+
+section.main-content .images.crop div.checkbox label.cropped {
+    color: #57a000;
+    font-weight: bold;
+}
+
+section.main-content .images.crop fieldset.crop .image2crop {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+section.main-content .images.crop fieldset.crop .image2crop div.rotate {
+    background-color: #F6F6F6;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+section.main-content .images.crop fieldset.crop .image2crop div.dummy {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+section.main-content .images.crop fieldset.crop .image2crop div.modal {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+#rotationMin,
+#rotationMax {
+    color: #000;
+    font: 700 14px Arial;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#rotationSlider {
+    margin: 7px auto;
+    height: 10px;
+    width: 150px;
+    position: relative;
+}
+
+#rotationContainer{
+    background-color: #FFF;
+    z-index: 700;
+    width: 200px;
+    height: auto;
+    padding: 5px 40px 5px 5px;
+}
+
+#rotationAct {
+    margin-top: 2px;
+    padding: 2px;
+    text-align: center;
+    width: 31px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+#focus {
+    bottom: auto;
+    height: 79px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    top: 0;
+    width: 79px;
+    cursor: move;
+    background: transparent url('/backend/img/aim.png') no-repeat center center;
+}
+
+#focus.disabled {
+    display: none !important;
+}
+
+section.main-content .images.crop fieldset.loading {
+    text-align: center;
+}
+
+section.main-content .images.crop fieldset.loading i {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+/* forms */
+
+label {
+    cursor: pointer;
+}
+
+select, textarea, input, button, .submit {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 200px;
+    border: 0;
+    background: #fff;
+    padding: 0 6px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border: 1px solid #d5d5d5;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+select option.opt-level-1,
+select optgroup.opt-level-1 {
+    margin-left: 0;
+}
+
+select option.opt-level-2,
+select option.opt-level-3,
+select optgroup.opt-level-2 {
+    margin-left: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type = checkbox] {
+    border: medium none;
+    margin: 9px 0 0 7px;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+input[type = checkbox].nomargin {
+    margin: 0;
+}
+
+input[type = file] {
+    height: auto;
+    padding: 5px;
+}
+
+div.input.select div.checkbox {
+    clear: both;
+    padding: 3px 0;
+}
+
+a.submit, input.submit, button.submit {
+    background-color: #57a000;
+    border: none;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    width: auto;
+    font-weight: bold;
+}
+
+a.submit:hover, input.submit:hover, button.submit:hover {
+    background-color: #57a000;
+    color: #ffffff !important;
+}
+
+a.submit.multi, input.submit.multi, button.submit.multi {
+    margin-left: 10px;
+}
+
+a.submit.inactive, input.submit.inactive, button.submit.inactive {
+    background-color: #dddddd;
+    color: #F6F6F6;
+    cursor: default;
+}
+
+section.main-content fieldset {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section.main-content fieldset > fieldset {
+
+}
+
+section.main-content fieldset > fieldset:last-child {
+    margin-bottom: 0;
+}
+
+section.main-content fieldset > legend {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+section.main-content fieldset > div {
+    margin-bottom: 10px;
+}
+
+section.main-content fieldset > div:last-child {
+    margin-bottom: 0;
+}
+
+section.main-content fieldset label {
+    display: block;
+    cursor: pointer;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    width: auto;
+}
+
+section.main-content fieldset .special-label {
+    line-height: 28px;
+}
+
+section.main-content fieldset input,
+section.main-content fieldset select,
+section.main-content fieldset button,
+section.main-content fieldset textarea {
+    width: 450px;
+}
+
+section.main-content fieldset > div.checkbox input {
+    margin-left: 5px;
+}
+
+section.main-content fieldset .mce-container input,
+section.main-content fieldset .mce-container select,
+section.main-content fieldset .mce-container button,
+section.main-content fieldset .mce-container textarea {
+    width: auto;
+}
+
+section.main-content fieldset input[type = checkbox] {
+    border: medium none;
+    margin: 0 7px 0 7px;
+    padding: 0;
+    width: auto;
+    float: left;
+}
+
+section.main-content fieldset .input.checkbox label {
+    line-height: inherit;
+    cursor: pointer;
+    display: inherit;
+    font-weight: normal;
+    margin-bottom: auto;
+    width: auto;
+}
+
+section.main-content fieldset textarea {
+    height: 200px;
+}
+
+section.main-content fieldset .help-message {
+    padding: 5px 5px 0 5px;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+section.main-content fieldset .help-message ul {
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+section.main-content fieldset .help-message ul li {
+    list-style: square none outside;
+}
+
+section.main-content fieldset div.times.error a.button,
+section.main-content fieldset div.selector.error a.button,
+section.main-content fieldset div.textarea.error .mce-panel,
+section.main-content fieldset .form-error {
+    border-color: #DB0300;
+}
+
+section.main-content fieldset .error-message {
+    font-weight: bold;
+    color: #DB0300;
+    padding: 5px 5px 0 5px;
+}
+
+div.counter {
+    color: #AAAAAA;
+    float: left;
+    line-height: 30px;
+    padding: 0 0 0 10px;
+}
+
+/* selector/times */
+
+section.main-content fieldset div.input.times,
+section.main-content fieldset div.input.selector {
+    width: 450px;
+}
+
+section.main-content fieldset div.input.times .button,
+section.main-content fieldset div.input.selector .button {
+    text-align: center;
+    margin-right: 10px;
+    width: 450px;
+}
+
+section.main-content fieldset div.input.selector .button {
+    width: 410px;
+}
+
+section.main-content fieldset div.input.selector.multiple .button {
+    width: 200px;
+}
+
+section.main-content fieldset div.input.selector .button.preview {
+    width: 30px;
+    margin-right: 0;
+}
+
+section.main-content fieldset div.input.selector .button.preview i.loading {
+    display: none;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+section.main-content fieldset div.input.selector .button.preview i.show {
+    display: inline-block;
+}
+
+section.main-content fieldset div.input.selector.wait .button.preview i.loading {
+    display: inline-block;
+}
+
+section.main-content fieldset div.input.selector.wait .button.preview i.show {
+    display: none;
+}
+
+section.main-content fieldset div.input.selector div.preview {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #d5d5d5;
+    background-color: #FFFFFF;
+    padding: 0 10px 10px 10px;
+}
+
+section.main-content fieldset div.input.selector.preview div.preview {
+    display: block;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item {
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    background-color: #F6F6F6;
+    margin-top: 10px;
+    cursor: move;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item div.img,
+section.main-content fieldset div.input.selector div.preview > div.item i {
+    float: left;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item div.img {
+    width: 100px;
+    height: 80px;
+    background-color: #FFFFFF;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #d5d5d5;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item i {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 55px;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item div.info {
+    float: left;
+    padding-left: 10px;
+    font-size: 0.8rem;
+    width: 351px;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item.image div.info {
+    width: 306px;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item div.info span {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+section.main-content fieldset div.input.selector div.preview > div.item div.info span a {
+    float: right;
+    color: #555555;
+}
+
+section.main-content fieldset div.input.times div.preview div.time {
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+section.main-content fieldset div.input.times div.preview div.time > div.from,
+section.main-content fieldset div.input.times div.preview div.time > div.to {
+    float: left;
+    line-height: 26px;
+    width: 198px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section.main-content fieldset div.input.times div.preview div.time > a {
+    float: right;
+}
+
+/* prices */
+
+section.main-content .prices.form {
+    padding-top: 60px;
+}
+
+section.main-content .prices.form > div.no-drafts,
+section.main-content .prices.form > div.drafts {
+    padding: 5px;
+    border: 1px solid #d5d5d5;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+section.main-content .prices.form > div.drafts {
+    position: fixed;
+    width: calc(100% - 260px);
+    margin: 0;
+    top: 115px;
+}
+
+section.main-content .prices.form > div.drafts select {
+    margin: 0 10px 0 0;
+}
+
+section.main-content .prices.form > div.no-drafts > span {
+    float: left;
+    line-height: 30px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+section.main-content .prices.form > div.no-drafts .icon,
+section.main-content .prices.form > div.drafts .icon {
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+section.main-content .prices.form > div.drafts .icon.move {
+    cursor: move;
+}
+
+section.main-content .prices.form fieldset {
+    min-height: 30px;
+}
+
+section.main-content .prices.form.with-options form > fieldset {
+    border-color: #57a000;
+}
+
+section.main-content .prices.form.with-options form > fieldset > legend {
+    text-transform: uppercase;
+    color: #57a000;
+}
+
+section.main-content .prices.form fieldset div.prices {
+    line-height: 30px;
+}
+
+section.main-content .prices.form fieldset div.prices div.draft {
+    float: left;
+    margin-right: 10px;
+    width: 350px;
+    font-weight: bold;
+}
+
+section.main-content .prices.form fieldset div.prices select,
+section.main-content .prices.form fieldset div.prices input {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+section.main-content .prices.form fieldset div.prices select {
+    width: 200px;
+}
+
+section.main-content .prices.form fieldset div.prices a.icon {
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.draft-drag-helper {
+    padding: 5px;
+    border: 1px solid #d5d5d5;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 26px;
+    width: 540px;
+    text-align: hidden;
+    opacity: 0.5;
+}
+
+/* popup */
+
+.popup-wrapper {
+    padding: 10px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.popup-wrapper.inline {
+    width: 400px;
+    top: 100px !important;
+}
+
+.popup-wrapper.inline > h2 {
+    padding-bottom: 10px;
+    font-family: Calibri,Helvetica,Arial,sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.popup-wrapper.inline div.name {
+    float: left;
+    font-weight: bold;
+    color: #57a000;
+    width: 50px;
+}
+
+.popup-wrapper.inline div.value {
+    float: left;
+}
+
+.popup-wrapper.inline input {
+    width: 100%;
+    float: none;
+    clear: both;
+    margin-top: 10px;
+}
+
+.popup-wrapper.inline input.first {
+    margin-top: 0;
+}
+
+.popup-wrapper.template-error,
+.popup-wrapper.template-node,
+.popup-wrapper.template-element {
+    width: 400px;
+}
+
+.popup-wrapper.template-details {
+    width: 800px;
+}
+
+.popup-wrapper.template-button,
+.popup-wrapper.template-media {
+    width: 502px;
+    border: none;
+    cursor: default;
+    float: none;
+    height: auto;
+    line-height: inherit;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.popup-wrapper .tabs {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.popup-wrapper .tabs a {
+    display: block;
+    float: left;
+    width: 100px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dddddd;
+    color: #555555;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+
+.popup-wrapper .tabs a.active {
+    background-color: #57a000;
+    color: #FFFFFF;
+}
+
+.popup-wrapper .filter {
+    clear: both;
+    float: none;
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.popup-wrapper .html-preview {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+.popup-wrapper .tab-1 .html-preview {
+    padding-bottom: 10px;
+}
+
+.popup-wrapper .tab-2 .html-preview {
+    padding-top: 10px;
+}
+
+.popup-wrapper .html-preview img {
+    width: 100% !important;
+}
+
+.popup-wrapper .options select,
+.popup-wrapper .options input,
+.popup-wrapper .filter select,
+.popup-wrapper .filter input,
+.popup-wrapper .custom select,
+.popup-wrapper .custom input {
+    width: 100%;
+}
+
+.popup-wrapper .filter.multi select {
+    width: 236px;
+    float: right;
+}
+
+.popup-wrapper .filter.multi select:first-child {
+    float: left;
+}
+
+.popup-wrapper .filter input.search {
+    margin-top: 10px;
+}
+
+.popup-wrapper .options select,
+.popup-wrapper .options input {
+    margin-bottom: 10px;
+}
+
+.popup-wrapper .custom select,
+.popup-wrapper .custom input {
+    margin-top: 10px;
+}
+
+.popup-wrapper .custom .first {
+    margin-top: 0;
+}
+
+.popup-wrapper select.form-error,
+.popup-wrapper input.form-error {
+    border-color: #DB0300;
+}
+
+.popup-wrapper .selector-wrapper {
+    padding: 0 0 0 0;
+}
+
+.popup-wrapper .selector-wrapper > div.error {
+    margin-bottom: 0;
+}
+
+.popup-wrapper .selector-inner {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 330px;
+}
+
+.popup-wrapper .details-inner {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 480px;
+}
+
+body.print .details-inner tr:hover,
+.popup-wrapper .details-inner tr:hover {
+    background-color: #D3F9A4;
+}
+
+body.print .details-inner tr.even,
+.popup-wrapper .details-inner tr.even {
+    background-color: #f3f3f3;
+}
+
+body.print .details-inner tr.even:hover,
+.popup-wrapper .details-inner tr.even:hover {
+    background-color: #BBEF77;
+}
+
+body.print .details-inner td,
+.popup-wrapper .details-inner td {
+    padding: 10px;
+}
+
+body.print .details-inner td.left, 
+.popup-wrapper .details-inner td.left {
+    width: 200px;
+}
+
+.popup-wrapper .item {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+}
+
+.popup-wrapper form.searching .item {
+    display: none;
+}
+
+.popup-wrapper form.searching .item.match {
+    display: block;
+}
+
+.popup-wrapper .item.image {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.popup-wrapper .item.selected {
+    background-color: #D3F9A4;
+    border-color: #57a000;
+}
+
+.popup-wrapper .item > div.title {
+    color: #57a000;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+}
+
+.popup-wrapper .item.image > div.title {
+    padding: 0 0 0 0;
+}
+
+.popup-wrapper .item.element > div.title {
+    line-height: 25px;
+}
+
+.popup-wrapper .item > div.title i {
+    color: #555555;
+    float: left;
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    line-height: 37px;
+}
+
+.popup-wrapper .item > div.title input {
+    padding: 0;
+    margin: 5px 4px 0 0;
+    height: auto;
+    line-height: auto;
+}
+
+.popup-wrapper .item.image > div.title input {
+    margin-top: 1px;
+}
+
+.popup-wrapper .item > div.title label {
+    float: left;
+}
+
+.popup-wrapper .item.image > div.title label {
+    float: none;
+    display: inline-block;
+    width: 120px;
+    overflow: hidden;
+}
+
+.popup-wrapper .item > div label > span {
+    display: block;
+    line-height: 1;
+    color: #555555;
+    font-weight: normal;
+}
+
+.popup-wrapper .item > span {
+    display: block;
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.popup-wrapper .item div.preview {
+    width: 100%;
+    height: 96px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.popup-wrapper ul.sort {
+    height: 340px;
+    overflow-y: scroll;
+    overflow-x: hidden;    
+}
+
+.popup-wrapper ul.sort li {
+    margin-top: 5px;
+    border: 1px solid #d5d5d5;
+    background-color: #DDDDDD;
+    padding: 5px;
+    cursor: move;
+    font-weight: bold;
+}
+
+.popup-wrapper .actions {
+    padding: 20px 0 0 0;
+}
+
+.popup-wrapper .actions.error-actions {
+    padding-top: 10px;
+}
+
+.popup-wrapper .actions a {
+    width: 100px;
+    text-align: center;
+}
+
+/* lists */
+
+table.list {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-collapse: inherit;
+    margin: 0 auto;
+    width: 100%;
+}
+
+table.list thead tr {
+    background-color: #eeeeee;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 1px;
+}
+
+table.list thead tr th {
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+table.list thead tr th a {
+    color: inherit;
+}
+
+table.list tbody tr:hover {
+    background-color: #D3F9A4;
+}
+
+table.list tbody tr.selected {
+    background-color: #D3F9A4;
+}
+
+table.list tbody tr.alternate {
+    background-color: #f3f3f3;
+}
+
+table.list tbody tr.alternate:hover {
+    background-color: #BBEF77;
+}
+
+table.list tbody tr.alternate.selected {
+    background-color: #BBEF77;
+}
+
+table.list tbody tr.sorting-row,
+table.list tbody tr.sorting-row:hover {
+    background-color: #CCCCCC;
+}
+
+table.list tbody tr td {
+    padding: 10px 15px;
+    line-height: 26px;
+}
+
+table.list thead tr th.checkbox,
+table.list tbody tr td.checkbox {
+    padding: 5px 0 5px 10px;
+    vertical-align: middle;
+    line-height: 26px;
+    width: 10px;
+}
+
+table.list thead tr th.checkbox input,
+table.list tbody tr td.checkbox input {
+    margin: 0;
+    clear: both;
+    float: none;
+    width: auto;
+}
+
+table.list tbody tr td.centered {
+    text-align: center;
+}
+
+table.list tbody tr td.flags {
+    text-align: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+table.list tbody tr td.flags .flag {
+    clear: both;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+table.list thead tr th.actions,
+table.list tbody tr td.actions {
+    padding: 5px 0 5px 5px;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+table.list thead tr th.actions > a,
+table.list tbody tr td.actions > a {
+    margin-left: 0;
+}
+
+table.list tfoot tr td {
+    border-top: 1px solid #cccccc;
+    font-size: 90%;
+    text-align: right;
+    padding: 0 25px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+table.list tfoot tr td ul {
+    float: right;
+}
+
+table.list tfoot tr td ul li {
+    float: left;
+    padding: 4px;
+}
+
+/* translations */
+
+div.list.translations {
+    padding-bottom: 270px;
+}
+
+div.list.translations > div.row {
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+
+div.list.translations > div.row:hover {
+    background-color: #DEFFB7;
+    border-color: #DEFFB7;
+}
+
+div.list.translations > div.row.selected {
+    border-color: #57a000;
+}
+
+div.list.translations > div.row > div.col {
+    float: left;
+    width: 50%;
+    padding: 9px;
+}
+
+div.list.translations > div.row.missing > div.col.fallback,
+div.list.translations > div.row.missing > div.col.translation {
+    font-weight: bold;
+}
+
+div.form.translations {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 230px);
+    left: 230px;
+    height: 363px;
+    background-color: #F6F6F6;
+}
+
+div.form.translations > div {
+    padding: 15px;
+}
+
+div.form.translations > div label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+div.form.translations > div textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    float: none;
+    clear: both;
+}
+
+div.form.translations > div button {
+    margin-top: 10px;
+}
+
+/* footer */
+
+footer {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #F6F6F6;
+    padding-top: 20px;
+}
+
+footer > div {
+    padding: 0 15px;
+}
+
+footer > div > div {
+    line-height: 35px;
+    border-top: 1px solid #dddddd;
+}
+
+footer > div > div small {
+    padding-left: 20px;
+}
+
+/* tiny mce */
+
+i.mce-i-magic:before {
+    content: "\f0d0";
+    font-family: FontAwesome;
+}
+
+/* global */
+
+.hidden {
+    display: none !important;
+}
+
+.hide-text {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.clear {
+    clear: both;
+    float: none;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}

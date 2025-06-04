@@ -1,0 +1,101 @@
+<data title="Dresden">
+
+	<guide name="Zimmer" image="yum-icon.png" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8276]]></file>
+			<movie><![CDATA[granvara_0044_326x438_de.flv]]></movie>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8590]]></file>
+			<sound><![CDATA[lounge_cut.mp3]]></sound>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8635]]></file>
+			<time><![CDATA[5000]]></time>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8197]]></file>
+			<sound><![CDATA[other_cut.mp3]]></sound>
+			<restart><![CDATA[true]]></restart>
+		</children>
+	</guide>
+	<guide name="Wellness" image="brzzzzz-icon.png" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8276]]></file>
+			<overlappingsound><![CDATA[lounge.mp3]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8590]]></file>
+			<overlappingsound><![CDATA[CONTINUE]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8635]]></file>
+			<overlappingsound><![CDATA[CONTINUE]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8374]]></file>
+			<overlappingsound><![CDATA[END]]></overlappingsound>
+			<restart><![CDATA[true]]></restart>
+		</children>
+	</guide>
+
+	<!--
+	<guide name="EXAMPLE_avatar_movie" image="" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8276]]></file>
+			<movie><![CDATA[granvara_0044_326x438_de.flv]]></movie>
+		</children>
+	</guide>
+
+	<guide name="EXAMPLE_single_sound" image="" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8590]]></file>
+			<sound><![CDATA[lounge_cut.mp3]]></sound>
+		</children>
+	</guide>
+
+	<guide name="EXAMPLE_overlapping_sound" image="" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8276]]></file>
+			<overlappingsound><![CDATA[lounge.mp3]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+			<restart><![CDATA[true]]></restart>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8590]]></file>
+			<overlappingsound><![CDATA[CONTINUE]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+			<restart><![CDATA[true]]></restart>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8635]]></file>
+			<overlappingsound><![CDATA[CONTINUE]]></overlappingsound>
+			<time><![CDATA[8000]]></time>
+			<restart><![CDATA[true]]></restart>
+		</children>
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8374]]></file>
+			<overlappingsound><![CDATA[END]]></overlappingsound>
+			<restart><![CDATA[true]]></restart>
+		</children>
+	</guide>
+
+	<guide name="EXAMPLE_original_Panorama" image="" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8635]]></file>
+			<time><![CDATA[5000]]></time>
+		</children>
+	</guide>
+
+	<guide name="EXAMPLE_restart_last_child" image="" image_width="128" image_height="128">
+		<children hidden="false">
+			<file><![CDATA[hapimagdd_8197]]></file>
+			<sound><![CDATA[other_cut.mp3]]></sound>
+			<restart><![CDATA[true]]></restart>
+		</children>
+	</guide>
+	-->
+</data>

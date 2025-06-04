@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+IMAGESETS:
+<data>						-> normal grosse Hotspots
+<data imagetype="large">	-> normal grosse Hotspots
+<data imagetype="small">	-> kleine Hotspots
+
+KEINE SKALIERUNG:
+<data>
+<data scale="false">
+
+SKALIERUNG:
+<data scale="true">						-> bis zur originalen Bildgroesse
+<data scale="true" maxScaleFactor="2">	-> bis zur originalen Bildgroesse
+<data scale="true" maxScaleFactor="1">	-> nicht groesser als Darstellung (haelfte der Bildgroesse)
+
+INFO_WIDTH:
+<info lang="de" tip="..."><![CDATA[...]]></info>				-> Infobox ist mindestens 250px breit
+<info width="500" lang="de" tip="..."><![CDATA[...]]></info>	-> Infobox ist mindestens 500px breit
+
+-->
+<data>
+	<hotspot x="0" y="0" rot="0" tooltip="NAME"><![CDATA[DESTINATION]]></hotspot>
+
+	<info width="500" lang="de" tip="Die Abbildungen und Bezeichnungen sind nur schematisch."><![CDATA[HTML<br />TEXT]]></info>
+	<info width="350" lang="en" tip="The illustrations and descriptions are only schematic."><![CDATA[HTML<br />TEXT]]></info>
+	<info width="" lang="fr" tip="Les images et désignations ne sont représentées que de façon schématique."><![CDATA[HTML<br />TEXT]]></info>
+	<info lang="it" tip="Le illustrazioni e le descrizioni sono puramente schematiche."><![CDATA[HTML<br />TEXT]]></info>
+</data>

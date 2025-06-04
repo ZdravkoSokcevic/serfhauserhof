@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.1.8">
+
+    <message
+        home				= "Załaduj panoramę startową..."
+        rotation_on			= "Rotacja uruchomiona..."
+        rotation_off		= "Rotacja zatrzymana..."
+        slideshow_on		= "Pokaz slajdów uruchomiony..."
+        slideshow_off		= "Pokaz slajdów zatrzymany..."
+        sound_on			= "Włącz muzykę..."
+        sound_off			= "Zatrzymaj muzykę..."
+        map_on				= "Pokaż mapę google..."
+        map_off				= "Ukryj mapę google..."
+        groundplan_on		= "Pokaż rzut poziomy..."
+        groundplan_off		= "Ukryj rzut poziomy..."
+        groundplaninfo_on	= "Pokaż informacje..."
+        groundplaninfo_off	= "Ukryj informacje..."
+        weather_on			= "Pokaż pogodę..."
+        weather_off			= "Ukryj pogodę..."
+        sitemap_on			= "Pokaż mapę strony..."
+        sitemap_off			= "Ukryj mapę strony..."
+        help_on				= "Pokaż pomoc..."
+        help_off			= "Ukryj pomoc..."
+        guidedtour_on		= "Zwiedzanie z przewodnikiem rozpoczęte..."
+        guidedtour_off		= "Zwiedzanie z przewodnikiem zakończone..."
+        webvr_on   			= "Uruchamia versja Virtual Reality..."
+        webvr_off   		= "Zatrzymuje versja Virtual Reality..."
+		gyroscope_on		= "Żyroskop włączoną kontrolę..."
+		gyroscope_off		= "Żyroskopu kontroli wyłączone..."
+        info_on		        = "Infos shown..."
+        info_off	    	= "Infos hidden..."
+		/>
+    <message_hover
+        home				= "Załaduj panoramę startową"
+        home_online			= "Pokaż stronę internetową"
+        rotation_on			= "Uruchom rotację"
+        rotation_off		= "Zakończ rotację"
+        slideshow_on		= "Uruchom pokaz slajdów"
+        slideshow_off		= "Zakończ pokaz slajdów"
+        sound_on			= "Włącz muzykę"
+        sound_off			= "Zatrzymaj muzykę"
+        map_on				= "Pokaż mapę google"
+        map_off				= "Ukryj mapę google"
+        groundplan_on		= "Pokaż rzut poziomy"
+        groundplan_off		= "Ukryj rzut poziomy"
+        groundplaninfo_on	= "Pokaż informacje"
+        groundplaninfo_off	= "Ukryj informacje"
+        weather_on			= "Pokaż pogodę"
+        weather_off			= "Ukryj pogodę"
+        sitemap_on			= "Pokaż mapę strony"
+        sitemap_off			= "Ukryj mapę strony"
+        help_on				= "Pokaż pomoc"
+        help_off			= "Ukryj pomoc"
+        toggle				= "Ukryj menu"
+        fullscreen_on		= " Uruchom pełny ekran"
+        fullscreen_off		= "Zakończ pełny ekran"
+        facebook			= "Pokaż profil na facebooku"
+        facebook-share		= "Share on Facebook"
+        google			= "Pokaż profil na Google+"
+        google-share		= "Share on Google+"
+        whatsapp            = "Share on Whatsapp"
+        twitter			= "Pokaż profil na twitterze"
+        twitter-share		= "Tweet on Twitter ​​Twitter"
+        book				= "Zarezerwuj pokój"
+        guidedtour_on                                           = "Rozpocznij zwiedzanie z przewodnikiem"
+        guidedtour_off                                          = "Zakończ zwiedzanie z przewodnikiem"
+        webvr_on   			= "Uruchom versja Virtual Reality"
+        webvr_off   		= "Zatrzymać versja Virtual Reality"
+		gyroscope_on		= "Włącz kontrolę żyroskop"
+		gyroscope_off		= "Wyłączyć kontrolę żyroskop"
+        info_on		        = "Show Infos"
+        info_off	    	= "Hide Infos"
+		/>
+    <error
+        fatal				= "Pobieranie zwiedzania wirtualnego 360 ° nie powiodło się. Proszę się upewnić, czy połączenie z internetem jest sprawne i spróbować ponownie. Jeśli problem wystąpi  częściej, prosimy skontaktować się z operatorem usługi zwiedzanie."
+        fullscreen			= "Zakończ pełen ekran"
+        stopVideo			= "Zatrzymaj video"
+        weatherUnavailable                                  = "Dane dot. pogody niedostępne"
+    />
+    <days
+        now				= "Teraz"
+        today				= "Dzisiaj"
+        monday			= "Poniedziałek"
+        tuesday			= "Wtorek"
+        wednesday			= "Środa"
+        thursday			= "Czwartek"
+        friday				= "Piątek"
+        saturday			= "Sobota"
+        sunday			= "Niedziela"
+    />
+    <email
+        subject			= "Kontakt przez zwiedzanie wirtualne 360 °"
+        body				= "Witamy"
+    />
+    <interface
+        back				= "z powrotem"
+        back-to             = "Back to"
+        menu-button         = "Menu"
+        creator             = "Fotograf"
+        disclaimer 			= "Ilustracje i opisy są tylko schematyczne!"
+        guided-tour-selector = "Przewodnikiem"
+    />
+    <help
+        toggle				= "Pokaż/ukryj menu"
+        fullscreen			= "Widok normalny lub pełen ekran"
+        home				= "Zrestartuj zwiedzanie"
+        slideshow			= "Uruchom/zakończ panoramiczny pokaz slajdów"
+        sound				= "Włącz/wyłącz dźwięk"
+        rotation			= "Uruchom/zakończ rotację panoramiczną"
+        groundplan			= "Pokaż/ukryj rzut poziomy aktualnej panoramy"
+        map				= "Pokaż/ukryj mapy google"
+        weather			= "Pokaż/ukryj prognozę pogody"
+        sitemap			= "Pokaż/ukryj mapę strony"
+        guidedtour          = "Start z przewodnikiem"
+        email				= "Wyślij e-mail"
+        info				= "Pokaż/ukryj kontakt"
+        facebook			= "Pokaż profil na facebooku"
+        facebook-share		= "Share on Facebook"
+        google			= "Pokaż profil na Google+"
+        google-share		= "Share on Google+"
+        whatsapp            = "Share on Whatsapp"
+        twitter			= "Pokaż profil na twitterze"
+        twitter-share		= "Tweet on Twitter"
+        book				= "Zarezerwuj hotel /pokój"
+        webvr   			= "Rozpocząć lub zatrzymać versja Virtual Reality"
+
+		gyroscope		= "Włączyć/wyłączyć kontrolę żyroskop"
+		other				= "W menu głównym można przemieszczać się między rubrykami lub uruchomić podgląd. Klikając obraz podglądu można załadować kolejną panoramę."
+    />
+    <privacy
+        name				= "Oświadczenie o ochronie danych osobowych"
+        text				= "Na niniejszej stronie zbieramy i zapisujemy dane do celów analitycznych przy pomocy technologii etracker GmbH (www.etracker.com). Dane te nie są wykorzystywane dla identyfikacji korzystających z niniejszej strony ani w celu sporządzenia profilu użytkownika."
+        disable			= "Deaktywuj tracking"
+    />
+    <explanation_click
+        caption			= "Sterowanie panoramą"
+        move				= "Obróć obraz:poruszaj myszą trzymając lewy przycisk."
+        zoom				= "Przybliż obraz:przewiń kółkiem myszy od siebie."
+    />
+    <explanation_touch
+        caption			= "Sterowanie panoramą"
+        move				= "Obróć obraz:kliknij obraz i przesuń mysz w lewo/prawo."
+        zoom				= "Przybliż obraz:zbliżaj/oddalaj od siebie kciuk i palec wskazujący."
+    />
+    <webvrsettings
+        title               =   "Proszę wybrać swoje VR-okulary"
+        />
+
+    <webvrexplanation
+        title               = "Compatible VR-Device found"
+        title-vr               = "Virtual Reality Version"
+        text                = "You are able to view the Tour as Virtual Reality Version. Please click the button to start it. Later you could also start it in the menu."
+        text-vr                = "To view the Virtual Reality Version, you need an compatible device and VR-Goggles. You find additional informations in our "
+        button              = "Start VR"
+        />
+
+    <sharing
+        twitter         = "Obserwuj tę wirtualną wycieczkę"
+        whatsapp         = "Obserwuj tę wirtualną wycieczkę"
+    />
+
+</language>

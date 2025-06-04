@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language version="2.1.8">
+
+	<message
+		home				= "Startpanorama laden..."
+		rotation_on			= "Rotation gestartet..."
+		rotation_off		= "Rotation gestoppt..."
+		slideshow_on		= "Slideshow gestartet..."
+		slideshow_off		= "Slideshow gestoppt..."
+		sound_on			= "Musik abspielen..."
+		sound_off			= "Musik anhalten..."
+		map_on				= "Zeige Google-Karte..."
+		map_off				= "Google-Karte ausblenden..."
+		groundplan_on		= "Zeige Grundriss..."
+		groundplan_off		= "Grundriss ausblenden..."
+		groundplaninfo_on	= "Zeige Information..."
+		groundplaninfo_off	= "Information ausblenden..."
+		weather_on			= "Zeige Wetter..."
+		weather_off			= "Wetter ausblenden..."
+		sitemap_on			= "Zeige Sitemap..."
+		sitemap_off			= "Sitemap ausblenden..."
+		help_on				= "Zeige Hilfe..."
+		help_off			= "Hilfe ausblenden..."
+        guidedtour_on		= "Geführte Tour gestartet..."
+        guidedtour_off		= "Geführte Tour beendet..."
+        webvr_on   			= "Virtual Reality Version gestartet..."
+        webvr_off   		= "Virtual Reality Version beendet..."
+        gyroscope_on		= "Gyroskopsteuerung aktiviert..."
+        gyroscope_off		= "Gyroskopsteuerung deaktiviert..."
+        info_on		        = "Infos angezeigt..."
+        info_off	    	= "Infos ausgeblendet..."
+    />
+	<message_hover
+		home				= "Startpanorama laden"
+		home_online			= "Website anzeigen"
+		rotation_on			= "Rotation starten"
+		rotation_off		= "Rotation stoppen"
+		slideshow_on		= "Slideshow starten"
+		slideshow_off		= "Slideshow stoppen"
+		sound_on			= "Musik abspielen"
+		sound_off			= "Musik anhalten"
+		map_on				= "Google-Karte einblenden"
+		map_off				= "Google-Karte ausblenden"
+		groundplan_on		= "Grundriss einblenden"
+		groundplan_off		= "Grundriss ausblenden"
+		groundplaninfo_on	= "Information einblenden"
+		groundplaninfo_off	= "Information ausblenden"
+		weather_on			= "Wetter einblenden"
+		weather_off			= "Wetter ausblenden"
+		sitemap_on			= "Sitemap einblenden"
+		sitemap_off			= "Sitemap ausblenden"
+		help_on				= "Hilfe einblenden"
+		help_off			= "Hilfe ausblenden"
+		toggle				= "Menü ausblenden"
+		fullscreen_on		= "Vollbild-Modus starten"
+		fullscreen_off		= "Vollbild-Modus beenden"
+        facebook			= "Facebookprofil anzeigen"
+        facebook-share		= "Auf Facebook teilen"
+        google  			= "Google+ Seite anzeigen"
+        google-share		= "Auf Google+ teilen"
+        whatsapp    		= "Auf Whatsapp teilen"
+        twitter				= "Twitterprofil anzeigen"
+        twitter-share		= "Auf Twitter posten"
+		book				= "Zimmer buchen"
+		guidedtour_on		= "Geführte Tour starten"
+		guidedtour_off		= "Geführte Tour beenden"
+        webvr_off  			= "Virtual Reality Version starten"
+        webvr_on  			= "Virtual Reality Version beenden"
+        gyroscope_on		= "Gyroskopsteuerung aktivieren"
+        gyroscope_off		= "Gyroskopsteuerung deaktivieren"
+        info_on		        = "Infos anzeigen"
+        info_off	    	= "Infos ausblenden"
+        />
+	<error
+		fatal				= "Die virtuelle 360° Tour konnte nicht geladen werden. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut. Sollte dies öfter passieren, kontaktieren Sie bitte den Inhaber dieser Tour."
+		fullscreen			= "Bitte den Fullscreen-Modus beenden"
+		stopVideo			= "Bitte Video stoppen"
+		weatherUnavailable	= "Wetterdaten nicht vorhanden..."
+	/>
+	<days
+		now					= "Jetzt"
+		today				= "Heute"
+		monday				= "Montag"
+		tuesday				= "Dienstag"
+		wednesday			= "Mittwoch"
+		thursday			= "Donnerstag"
+		friday				= "Freitag"
+		saturday			= "Samstag"
+		sunday				= "Sonntag"
+	/>
+	<email
+		subject				= "Kontaktaufnahme über virtuellen 360° Rundgang"
+		body				= "Hallo"
+	/>
+	<interface
+		back				= "zurück"
+		back-to				= "zurück zu"
+        menu-button         = "Menü"
+        creator             = "Fotograf"
+        disclaimer 			= "Die Abbildungen und Bezeichnungen sind nur schematisch!"
+        guided-tour-selector= "Geführte Tour"
+    />
+	<help
+		toggle				= "Menü ein-/ausblenden"
+		fullscreen			= "Normal- oder Vollbildansicht"
+		home				= "Rundgang neu starten"
+		slideshow			= "Panorama-Slideshow starten/stoppen"
+		sound				= "Sound an-/abschalten"
+		rotation			= "Panorama-Rotation starten/stoppen"
+		groundplan			= "Grundriss zum aktuellen Panorama ein-/ausblenden"
+		map					= "Google-Maps ein-/ausblenden"
+		weather				= "Wettervorhersage ein-/ausblenden"
+		sitemap				= "Sitemap ein-/ausblenden"
+		guidedtour			= "Geführte Tour starten"
+		email				= "eMail senden"
+		info				= "Infos ein-/ausblenden"
+		facebook			= "Facebookprofil anzeigen"
+        facebook-share		= "Auf Facebook teilen"
+        google  			= "Google+ Seite anzeigen"
+        google-share		= "Auf Google+ teilen"
+        twitter				= "Twitterprofil anzeigen"
+		twitter-share		= "Auf Twitter posten"
+		whatsapp			= "Auf Whatsapp teilen"
+		book				= "Hotel/Zimmer buchen"
+        webvr   			= "Virtual Reality Version starten"
+		gyroscope		    = "Aktiviert/Deaktiviert Gyroskopsteuerung"
+		other				= "Im Hauptmenü kann zwischen den Rubriken navigiert oder ein Vorschaubild angeklickt werden. Durch Anklicken des Vorschaubildes wird ein neues Panorama geladen."
+	/>
+	<privacy
+		name				= "Datenschutzerklärung"
+		text				= "Auf dieser Website werden mit Technologien der etracker GmbH (www.etracker.com) Daten zu Analysezwecken gesammelt und gespeichert. Die dabei erhobenen Daten werden nicht dazu benutzt, den Besucher dieser Website zu identifizieren oder ein Nutzungsprofil zu erstellen."
+		disable				= "Tracking deaktivieren"
+	/>
+	<explanation_click
+		caption				= "Steuerung des Panoramas"
+		move				= "Panoramabild drehen:Linke Maustaste gedrückt halten und Maus bewegen."
+		zoom				= "Panoramabild zoomen:Scrollrad der Maus drehen, um ein- bzw. auszuzoomen."
+	/>
+	<explanation_touch
+		caption				= "Steuerung des Panoramas"
+		move				= "Panoramabild drehen:Auf das Bild tippen und nach links oder rechts drehen."
+		zoom				= "Panoramabild zoomen:Zum einzoomen Daumen und Zeigefinger aus-/ ineinander bewegen"
+	/>
+
+    <webvrsettings
+        title               =   "Bitte wählen Sie Ihre VR-Brille aus."
+        />
+
+    <webvrexplanation
+        title               = "Kompatibles VR-Gerät gefunden"
+        title-vr               = "Virtual Reality Version"
+        text                = "Sie können den Rundgang im Virtual Reality Version betrachten. Klicken Sie dazu bitte auf den Button. Später können Sie die Version jederzeit im Menü starten."
+        text-vr                = "Um die Virtual Reality Version zu betrachten, benötigen Sie ein kompatibles Endgerät und eine VR-Brille. Weitere Informationen finden Sie in unserer "
+        button              = "VR starten"
+        />
+
+    <sharing
+        twitter         = "Schaue Dir diesen virtuellen Rundgang an"
+        whatsapp         = "Schaue Dir diesen virtuellen Rundgang an"
+    />
+
+</language>

@@ -1,0 +1,12 @@
+<krpano>
+	<include url="%SWFPATH%/videointerface/videointerface.xml" />
+
+	<plugin name="videopano" url="%SWFPATH%/videoplayer.swf" videourl="%SWFPATH%/{VIDEOPATH}/videopano_0001.mp4" onvideoready="videointerface_videoloaded(get(name));" />
+
+	<!-- 3d geometry details/accuracy - use a higher than default setting -->
+	<display details="20" />
+
+	<image>
+		<sphere url="plugin:videopano" />
+	</image>
+</krpano>
